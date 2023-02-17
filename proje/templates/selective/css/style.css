@@ -1,0 +1,213 @@
+html {}
+body { font-size: 12px; font-family: Tahoma, Helvetica, sans-serif; background: #b0c0c9 url("../img/bg.jpg") center top no-repeat; line-height: 1.4; }
+a { color:#555; }
+.wrap { margin: 0 auto; width: 960px; position: relative; }
+	.shadow {position: absolute; width: 986px; height: 1466px; background: url("../img/shadow.png") center top no-repeat; left: -13px; top: 0; }
+
+	.container {float: left; min-height: 1236px; width: 960px; position: relative; background: #fff; padding: 20px 0 210px 0; margin: 15px 0 0 0;}
+
+#header {float: left; width: 960px; height: 110px; background: url("../img/header.png") center bottom no-repeat; margin: 10px 0 0 0;}
+	#logo {float: left; width: 242px; height: 71px; background: url("../images/logo.png") left top no-repeat; margin: 0 0 0 0px; margin-top:-20px; margin-left:10px;}
+		#logo h1 {text-indent: -9999px}
+			#logo h1 a {display: block; width: 330px; height: 49px;}
+	.topMenu {float: right; margin: 16px 15px 0 0; }
+		.topMenu li {float: left; background: url("../img/topMenu.png") right center no-repeat; padding: 0 19px;}
+		.topMenu li.last {background: none;}
+			.topMenu li a {display: block; height: 46px; line-height: 46px; color: #fff; font-size: 14px; font-family: "Trebuchet MS"; font-weight: bold; text-shadow: -1px -1px 0 #283c73;  }
+
+	.menu {float: left; padding: 0 0 0 20px;}
+		.menu ul {}
+			.menu ul li	{float: left; margin: 0 12px 0 0;}
+				.menu ul li a {display: block; height: 45px; line-height: 45px; color: #fff; background: url("../img/arrow.png") left center no-repeat; padding: 0 0 0 18px;text-shadow: -1px -1px 0 #283c73; }
+	#header .search {float: right; width: 342px; height: 38px; margin: 0 16px 0 0; background: url("../img/search.png") left top no-repeat;}
+	#header	.search .inputText {float: left; width:224px; height: 12px; border: 0 none; background: none; margin: 0; padding: 0; font-size: 12px; font-family: Tahoma; color: #c5c5c5; line-height: 12px; padding: 13px 15px;}
+	#header	.search .submit {float: right; width:88px; height:38px; margin: 0; padding: 0; border: 0 none; background: none; cursor: pointer; }
+
+.subHeader {float: left; width: 960px; margin: 15px 0;}
+	.ads1 {float: left; margin: 3px 0 0 15px; border-right: 4px solid #ccc; padding: 0 20px 0 0;}
+	.ads2 {float: left; margin: 3px 0 0 15px;}
+	.basket {float: right; width: 180px; height: 47px; padding: 0 0 0 61px; margin: 0 10px 0 0; background: url("../img/basket.png") left top no-repeat; color: #fff; line-height: 47px; font-size: 14px;text-shadow: -1px -1px 0 #ab4809; }
+
+.content {float: left;width: 960px;}
+	.left {float: left; width: 176px;margin: 0 0 0 8px;}
+		.allCategories {float: left;  width: 176px; position: relative;}
+			.allCategories h3 {float: left;position: relative;left: -18px; background: url("../img/allCategoriesHeading.png") left top no-repeat; width: 200px; height: 56px; color: #fff; font-size: 14px; font-family: "Trebuchet MS"; text-align: center; line-height: 46px; text-shadow: -1px -1px 0 #374a82;}
+			.allCategories ul {float: left; width: 176px;border-left: 1px solid #ebeced;border-right: 1px solid #ebeced;border-top: 1px solid #ebeced; }
+				.allCategories ul li {float: left; width: 176px; height: auto;border-bottom: 1px solid #ebeced;}
+					.allCategories ul li a {display: block; line-height: 30px;font-weight: bold; color: #7c7c7c; padding: 0 0 0 12px; background: url("../img/arrow2.png") 150px center no-repeat;}
+		.left .instalment {float: left; margin: 20px 0 0 0;}
+
+	.middle {float: left; width: 750px;margin: 0 0 0 16px;}
+
+
+		#slider { float: left; width: 566px; height: 350px; margin: 0 0 10px 0; }
+			#slider .viewport { float: left; width: 566px; height: 272px; overflow: hidden; position: relative; z-index: 10; }
+				#slider .overview { list-style: none; padding: 0; margin: 0;  position: absolute; left: 0; top: 0; }
+					#slider .overview li{ float: left; width: 566px; height: 272px; }
+					#slider .overview li img { width: 566px; }
+
+		#slider .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0 0; width: 549px; height: 62px; background: url("../img/pager.png") left top no-repeat; position: relative; top: -16px; left: -2px; z-index: 0; padding: 30px 10px 0 10px; }
+			#slider .pager li { float: left; margin: 0 2px; }
+				#slider .pagenum { display: block; width: 48px; height: 48px; border: 1px solid #c6c6c6; text-decoration: none; text-align: center;}
+					#slider .pagenum img { width: 48px; height: 48px;  }
+
+				#slider .active { position: relative; }
+					#slider .active span { position: absolute; }
+
+
+		.productTabs {float: left; width: 566px; }
+			.productTabs .tabLinks {float: left; width: 554px; padding: 0 0 0 12px;}
+				.productTabs .tabLinks li {float: left; margin: 0 1px; }
+					.productTabs .tabLinks li a {display: block;background: url("../img/tabs.png") left top repeat-x; height: 31px; line-height: 31px; padding: 0 30px; color: #fff; font-size: 11px; font-weight: bold; text-shadow: -1px -1px 0 #385698; }
+					.productTabs .tabLinks li a:hover,.productTabs .tabLinks li a.selected {background-position: left bottom; text-decoration: none; color: #c15600; text-shadow: none;}
+
+		.productTabs .tabs {}
+			.productTabs .tab {}
+
+		.productList {float: left; width: 736px; background: #ecf0f1; padding: 10px 4px 10px 10px; margin-bottom:20px;}
+			.productList .elem {float: left; width: 172px; margin: 5px; padding: 25px 0 0 0; background: #fff;position: relative;}
+				.productList .elem .discount {position: absolute; top: 0; right: 0; display: block; width: 84px; height: 85px; background: url("../img/discount.png") top right no-repeat; z-index: 10;}
+
+				.productList .elem .img {float: left; width: 170px; margin: 0 1px 0 1px; border-top: 1px dotted #cad5d8;border-bottom: 1px dotted #cad5d8;}
+				.productList .elem .img img { max-height:130px; }
+				.productList h4 {float: left; width: 142px; height: 60px; line-height: 15px; padding: 15px;border-bottom: 1px dotted #cad5d8;}
+					.productList h4 a {color: #3c3c3c; font-size: 14px; font-weight: normal;}
+				.productList .price {float: left; width: 172px; padding: 15px;}
+					.productList .price a {color: #c76306; font-weight: bold; font-size: 14px; background: url("../img/arrow3.png") right center no-repeat; padding: 0 20px 0 0;}
+
+	.right {float: right; width: 181px;  margin: 0 8px 0 0;}
+		.right .customerServices {float: left; position:relative;}
+		.right .customerServices span.telefon { position:absolute; display:block; top:64px; left:26px; color:#fff; font-size:20px; font-family:Arial, Helvetica, sans-serif; font-weight:bolder; }
+		.right .customerServices span.telefon span { font-size:12px; position:relative; top:-5px; }
+		.monthly {float: left; width: 181px; margin: 20px 0 0 0;color: #5e5e5e; font-size: 11px;}
+			.right .heading {float: right; position: relative; right: -18px; width: 199px; height: 56px; background: url("../img/rightHeading.png") left top no-repeat; color: #fff; font-size: 14px; font-family: "Trebuchet MS"; text-align: center; line-height: 46px; text-shadow: -1px -1px 0 #374a82;}
+			.monthly .img {margin: 14px 0 10px 6px; float:  left;}
+			.monthly .img img  { max-width:100%;}
+			.videoArea img  { max-width:100%;}
+			
+			.monthly h4 {font-size: 18px;}
+			.monthly .lookAt {color: #c96608; font-size: 13px; background: url("../img/arrow2.png") right center no-repeat; padding: 0 30px 0 0;}
+
+		.video {float:  left; width: 181px; margin: 20px 0 0 0;}
+			.videoArea {float: left; margin: 14px 0 0 0; width: 162px; height: 99px; background: url("../img/videoArea.png") left top no-repeat;padding: 12px 26px 18px 11px;}
+			.video p {float: left; width: 181px; text-align: center; margin: 10px 0 0 0;}
+				.video p a {color: #4862ad; font-weight: bold; font-size: 14px; font-family: "Trebuchet MS"}
+
+.news {float: left; width: 944px; height: 51px; line-height: 51px; margin: 25px 8px 0 8px; background: url("../img/news.png") center center no-repeat;}
+	.news h3 {float: left; width: 224px; color: #fff; font-size: 14px; text-indent: 20px}
+	.news .newsHeading {float: left; width: 720px; font-size: 14px; color: #000; text-align: center;}
+		.news .newsHeading a { color: #000; text-shadow: 1px 1px 0 #fff; }
+
+
+.footer {position: absolute; left: 0; bottom: 45px; width: 944px; margin: 60px 0 0 8px; }
+	.footer .footLeft { float: left; width: 150px; height: 105px; margin: 0 0 0 30px; border-right: 1px solid #e4e4e4; color: #808487; font-size: 11px; }
+		.footLogo {float: left; margin: 6px 0 16px 0;}
+		.footBlock {float: left; height: 85px; padding: 10px 23px; border-right: 1px solid #e4e4e4;}
+			.footBlock h3 {color: #c86407; font-family: "Trebuchet MS"; font-size: 14px; font-weight: normal; }
+			.footBlock ul {}
+				.footBlock ul li {}
+					.footBlock ul li a { color: #5a5a5a; font-size: 11px; }
+		.footBlock.last {border-right: 0 none;}
+			.ebulten {float: left; width: 215px; height: 37px; background: url("../img/ebulten.png") left top no-repeat;}
+				.ebulten .inputText {float: left; width: 150px; height: 11px; border: 0 none;background: none; margin: 0; padding: 0; color: #c8c8c8; font-size: 11px; line-height: 11px; padding: 13px 15px;}
+				.ebulten .submit {float: right; width: 35px; background: none; height: 37px; margin: 0; padding: 0; cursor: pointer; border: 0 none;}
+				.ebulten p {margin: 14px 0 0 0;color: #5a5a5a; font-size: 11px; }
+					.ebulten p .checkbox {float: left; margin: 0 8px 0 0;}
+
+.copyright {float: left; margin: 25px 0; width: 960px; text-align: center; color: #fff; font-size: 11px; text-shadow: -1px -1px 0 #717d84;}
+
+
+/* subpage.html STARTs */
+	.criteria {}
+		.criteria h2 {font-size: 20px; font-weight: normal; margin: 5px 0 5px 5px;}
+		.criteria .area {float: left; width: 505px; padding: 5px 15px; height: 36px; line-height: 36px; background: #fff; margin: 0 0 15px 5px; font-size: 14px;}
+			.criteria .area select {float: right; border: 1px solid #c2c2c2; padding: 3px 0; margin: 6px 0 0 0;}
+
+
+
+/* product.html STARTs */
+
+.product {float: left; width: 954px; margin: 0 8px;}
+	.proHeading {float: left; width: 944px; height: 51px; line-height: 51px; margin: 25px 0 35px 0; background: url("../img/news.png") center center no-repeat;}
+	.proHeading h3 {float: left; width: 224px; color: #fff; font-size: 14px; text-indent: 20px}
+	.proHeading .phInner {float: left; width: 720px; font-size: 14px; color: #000; text-indent: 20px; }
+		.proHeading .phInner  a { color: #000; text-shadow: 1px 1px 0 #fff; }
+
+
+	.productDetails {float: left; width: 235px; padding: 0 8px;}
+		.productDetails h1 {float: left; width: 100%; color: #ff6808; font-size: 20px; margin: 0 0 6px 0;}
+		.productDetails .price {float: left; width: 100%; font-size: 16px; margin: 0 0 14px 0;}
+			.productDetails .price span{float: right; color: #34a40c; font-size: 11px ;}
+		.productDetails .buy {display: inline-block; width: 235px; height: 41px; background: url("../img/buy.png") left top no-repeat; text-align: center; line-height: 41px; color: #fff; font-weight: bold; font-family: "Trebuchet MS"; font-size: 14px; 	}
+		.productDetails h3 {float: left; width: 100%; font-size: 14px; color: #5873bb; margin: 16px 0 0 0;}
+		.productDetails .text {float: left; width: 100%; font-size: 13px; margin: 16px 0;}
+
+
+
+
+	.proImg { float: right; width: 654px; height: 360px; margin: 0 10px 10px 0; padding: 0 0 0 22px; background: url("../img/shadow2.png") left center no-repeat; }
+		.proImg .viewport { float: left; width: 534px; height: 355px; overflow: hidden; position: relative; z-index: 10; }
+			.proImg .overview { list-style: none; padding: 0; margin: 0;  position: absolute; left: 0; top: 0; }
+				.proImg .overview li{ float: left; width: 534px; height: 355px; }
+				.proImg .overview li img { width: 534px; }
+
+
+	
+	.proImg .pager { float: left; overflow:hidden; list-style: none; margin: 0 0 0 10px; width: 110px; height: 360px; z-index: 0; }
+		.proImg .pager li { float: left; margin: 0 0 5px 0; }
+		.proImg .pager li span { display:none; }
+			.proImg .pagenum { display: block; width: 100px; height: auto; border: 1px solid #c6c6c6; text-decoration: none; text-align: center;}
+				.proImg .pagenum img { width: 110px;    }
+
+			.proImg .active { position: relative; }
+				.proImg .active span { position: absolute; }
+
+
+	.steps {float: left; width: 905px; height: 109px; background: url("../img/steps.png") left top no-repeat; padding: 0 0 0 20px; margin: 0 0 0 10px;}
+		.steps .social {float: right; height: 105px; }
+			.steps .facebook {float: right; margin: 45px 36px 12px 0;}
+			.steps .tweet {float: right; margin: 0 10px 0 0;}
+			.steps .plus {float: right; margin: 2px 30px 0 0;}
+		.step {float: left; height: 109px; padding: 0 60px 0 20px; background: url("../img/step.png") right center no-repeat;}
+			.step h4 {color: #4a64af; font-size: 14px; font-family: "Trebuchet MS"; margin: 34px 0 0 0;}
+			.step select { width: 100px;}
+			.step .addBasket {display: inline-block; *display: block; width: 165px; height: 48px; background: url("../img/addBasket.png") left top no-repeat; text-indent: -9999px; margin: 36px 0 0 0;}
+
+.others {float: left; width: 923px; margin: 16px 0 0 10px; }
+	.others .tabLinks {float: left; width: 100%; padding: 0 0 0 12px;}
+		.others .tabLinks li {float: left; margin: 0 3px; }
+			.others .tabLinks li a {display: block; background: url("../img/tabs2.png") left top no-repeat; width: 161px; height: 24px; line-height: 24px; text-align: center; color: #aaaaaa; font-size: 11px; font-weight: bold; }
+			.others .tabLinks li a:hover,.others .tabLinks li a.selected {background-position: left bottom; text-decoration: none; color: #555555; text-shadow: none;}
+
+.others .tabs {float: left; width: 100%; margin: -1px 0 0 0;}
+	.others .tab {float: left; width: 873px;border: 1px solid #cccccc; padding: 25px;}
+		.others .tab p {margin: 0 0 20px 0;}
+
+
+.menu_head { padding:5px; border-bottom:1px solid #ddd; width:99%; }
+
+
+
+
+
+
+
+
+
+/* CSS 3 */
+
+.container,#slider .overview li img {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.productList {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.productTabs .tabLinks li a {
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}

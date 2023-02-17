@@ -1,0 +1,240 @@
+/* Furkan TOPALOÐLU tarafýndan 5 Aralýk 2012 Tarihinde Shop Php Sistemi için yazýlmýþtýr. */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+strong,b{font-weight:bold;}
+
+a{text-decoration:none;}
+
+/* site */
+body{background:url(../resimler/bg.png); font-family:arial;}
+/* wrapper */
+#wrapper{width:990px; margin:0 auto;}
+/* header */
+#header{ position:relative;}
+/* top info */
+#top-info{color:#4e4e4e; font-family:tahoma; float:right; font-size:12px; margin:10px 0 0 0;}
+#top-info p{float:left; margin-left:35px;}
+/* logo */
+#logo{float:left; margin:10px 0 0 0;}
+/* search */
+#search{background:url(../resimler/searchbg.png); width:371px; height:46px; float:left; margin:25px 0 0 46px; left:230px; position:absolute; bottom:52px;}
+input.search-box{ margin:0; padding:0; background:url(../resimler/searchbox.png); width:249px; height:28px; padding:8px; 10px 0 10px; border:none; float:left; margin:7px 0 0 21px; font-size:11px; color:#949494;}
+input.search-button{background:url(../resimler/searchbutton.png); width:61px; height:40px; border:none; cursor:pointer; float:left; margin:5px 0 0 0;}
+/* basket */
+p.basket{background:url(../resimler/basket.png) no-repeat right; padding-right:50px; height:46px; line-height:46px; font-size:14px; font-style:italic; float:right; margin:20px 0 0 0;}
+/* menu */
+ul#menu{background:url(../resimler/menubg.png); width:991px; height:51px; position:relative; top:-5px;}
+ul#menu li{float:left; border-right:1px solid #353434; height:43px; margin:4px 0 0 0; font-size:14px; font-weight:bold; font-style:italic; padding:0 20px 0 20px; line-height:43px;}
+ul#menu li a{color:#fff;}
+/* slider */
+#slider{ width:705px; height:327px; float:left;}
+/* right box */
+#right-box{ width:281px; float:right;}
+.e-bulten{background:url(../resimler/ebulten.png); width:281px; height:159px; margin:8px 0 0 0; text-align:center;}
+.e-bulten img{margin:20px 0 0 0;}
+.e-bulten form p{margin:5px 0 10px 0; color:#fff; font-size:15px; font-weight:bold;}
+input.bulten-box{background:url(../resimler/ebultenbox.png); width:170px; height:21px; padding:8px 5px 0 5px; border:none; float:left; margin-left:20px; font-size:11px; color:#999;}
+input.add{background:url(../resimler/addbutton.png); width:53px; height:30px; float:left; cursor:pointer; border:none; margin-left:10px;}
+/* content */
+#content{background:#fff; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; box-shadow:0px 0px 5px #999; width:970px; min-height:500px; padding:10px;}
+/* sidebar */
+#sidebar{width:226px; float:left;}
+p.side-title{background:url(../resimler/title.png); width:226px; height:39px; color:#fff; font-weight:bold; font-size:15px; line-height:38px; text-indent:10px;}
+#sidebar ul{margin-bottom:25px;}
+#sidebar ul li{font-size:13px; font-weight:bold; margin:7px 0 0 15px;}
+#sidebar ul li a{color:#383838;}
+#sidebar ul li a:hover{border-bottom:1px dotted #383838;}
+/* products */
+.products{width:730px; margin:3px 0 0 0; float:right;}
+#products{ margin:3px 0 0 0; }
+li.product{background:url(../resimler/productbg.png); width:172px; height:306px; float:left; margin:0 10px 10px 0; position:relative;}
+li.product p.product-image {text-align:center; width:170px; height:200px; line-height:400px; display:inline-block; vertical-align:middle; position: relative;  }
+li.product p.product-image img {  
+max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+	z-index:0;
+
+}
+li.product p.product-image img{  margin:auto; max-width:95%; max-height:200px;  }
+li.product h1{font-size:14px; font-weight:bold; padding:10px; text-align:center; height:24px; overflow:hidden;}
+li.product h1 a{color:#4e4e4e; }
+li.product p.product-info{background:url(../resimler/productinfo.png); width:152px; height:39px; margin:5px auto;}
+li.product p.product-info span{display:block; float:left; width:75px;  color:#fff; font-size:12px; font-weight:bold; text-align:center; line-height:41px;}
+li.product p.product-info a{display:block; float:right; width:60px; font-size:11px; text-align:center; line-height:39px; color:#4e4e4e; padding-right:7px;}
+/* details */
+h1.big-title{background:url(../resimler/bigtitle.png); width:969px; height:52px; line-height:52px; font-size:20px; font-weight:normal; font-style:italic; text-indent:10px; color:#3f3f3f;}
+h1.small-title{background:url(../resimler/blockBgrs.png) no-repeat; width:732px; height:52px; line-height:52px; font-size:20px; font-weight:normal; font-style:italic; text-indent:10px; color:#3f3f3f;}
+/* product photo detail */
+#product-detail-photo{ float:left;}
+.big-photo{ width:380px; float:right; margin-top:15px; border:1px solid #ececec; width:327px; height:331px; margin-left:10px; text-align:center; float:left;}
+.big-photo .img{  max-width:300px; max-height:300px; margin:13px 0 0 0;}
+#small-photos{width:73px; float:left; margin-top:15px;}
+#small-photos li,#urunResimListContainer li { margin:0; padding:0; display:inline-block; width:73px; height:86px; border:1px solid #ececec; margin-bottom:7px;  cursor:pointer; text-align:center; }
+#urunResimListContainer { float:left; width:70px; padding-top:15px; } 
+#small-photos li,#urunResimListContainer li img{ max-height:70px; max-width:70px; margin:5px 0 0 0;}
+.active-photo{border:1px solid #999 !important;}
+/* product infos */
+#product-infos{float:left; margin:12px 0 0 15px; width:540px; }
+div.prices{font-size:14px; float:left;  width:300px; line-height:18px;}
+div.prices p{margin-bottom:5px;}
+div.prices p span{ color:#676767; font-weight:bold;}
+div.prices p.size,div.prices p.color{font-size:13px; margin:40px 0 0 0;}
+div.prices p.color{margin:8px 0 0 0;}
+div.prices .ondetay { color:#555; padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #ccc;  }
+div.prices select{width:100px; border-radius:5px;}
+div.buttons{float:right; width:177px;}
+p.point{background:url(../resimler/pointbg.png); width:177px; height:50px; text-align:center; color:#383838; font-size:23px; line-height:50px;}
+span.pointt{font-size:12px; text-align:center; width:177px; display:block;}
+/* product details */
+#product-details{margin:20px 0 0 10px; float:left;}
+.detail-content{ display:none; width:450px; min-height:232px; float:left; padding:10px; font-size:13px; font-weight:bold; color:#555;  line-height:18px; }
+#detail-title{  margin-top:15px;}
+#detail-title li{background:#f7f7f7; font-size:13px; padding:5px 15px 5px 15px; margin-right:2px; float:left; color:#646464; border:1px solid #ececec;  cursor:pointer;}
+.active-detail{ font-weight:bold; color:#000 !important;}
+/* card */
+#card{background:url(../resimler/cardbg.png); width:100%; height:61px; text-align:center; margin:15px 0 0 0;}
+#card img{margin:17px 0 0 0;}
+/* footer */
+#footer{width:100%; height:170px; background:#2a2a2a;}
+.container{width:990px; margin:0 auto;}
+#footer ul{float:left; margin:10px 40px 0 0 ;}
+#footer ul li{font-size:13px; font-weight:bold; line-height:18px; color:#fff;}
+#footer ul li.title{font-size:18px; margin-bottom:20px;}
+#footer ul li a{color:#fff;}
+#footer ul li a:hover{border-bottom:1px dotted #fff;}
+
+.form-login{
+	float:right;
+	padding:5px 0 0;
+	height: 58px; overflow: hidden;
+}
+.form-login .login-menu { float: right; margin-top: 5px; clear: both; white-space: nowrap; }
+.form-login .text-frame{
+	background:url(../images/bg-form-login.jpg) no-repeat;
+	float:left;
+	margin:0 0 0 8px;
+}
+.form-login .text-frame:first-child{margin:0;}
+.form-login .text{
+	background:none;
+	border:0;
+	line-height:14px;
+	height:14px;
+	outline:0;
+	padding:5px 10px;
+	width:100px;
+}
+.form-login .submit{
+	background:url(../images/bg-form-login.jpg) no-repeat 100% 0;
+	border:0;
+	cursor:pointer;
+	height:24px;
+	font-size:0;
+	line-height:0;
+	margin:0 0 0 0px;
+	overflow:hidden;
+	padding:0;
+	text-indent:-9999px;
+	width:58px;
+}
+.form-login .submit:hover{cursor:pointer;}
+.form-login table tr td { vertical-align:top; padding:3px; }
+.form-login table tr td.facebookTD { padding-top:0px; }
+a { color:#f0720b; }
+
+
+#left {
+	width: 226px;
+	margin-right:8px;
+	float: left;}
+	
+	.kategoriBaslik {
+	background: url("../resimler/title.png") no-repeat;
+	width:226px;
+	height: 23px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	margin-top:3px;
+}
+
+.kategoriContent{padding-top:5px; padding-bottom:5px; margin-bottom:10px;}
+
+.kategoriContent ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.kategoriContent ul li{
+	display:block;
+	padding:6px;
+	border-bottom:1px dashed #e8e8e8;
+}
+.kategoriContent ul li:hover{
+	display:block;
+	padding:6px;
+	border-bottom:1px dashed #e8e8e8;
+	background:#FFF;
+}
+.kategoriContent ul li a{
+	color:#666;
+	font-size:12px;
+	text-decoration:none;
+}
+	
+	#right {
+	float: right;
+	width: 730px;}
+	
+.filterCheck{font-size:12px;}

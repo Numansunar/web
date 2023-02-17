@@ -1,0 +1,44 @@
+.loginForm td { padding:3px; }
+.loginForm input { width:140px; }
+
+.gf_input,.loginForm input { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.gf_select { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	padding:4px;
+}
+
+.gf_textarea { 
+	width:300px;
+	height:100px;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.loginInput {
+	float: right;
+	width: 93px;
+	border: 1px solid #aedae4;
+	margin-bottom: 9px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.generatedForm td { padding:3px; }
+.generatedForm { font-family:Arial, Helvetica, sans-serif; width:auto;  }
+.generatedForm .td1,.generatedForm .td2 { font-weight:bold; }
+.generatedForm .td1 { width:150px;}
+#gf_acceptRules  { width:500px; }

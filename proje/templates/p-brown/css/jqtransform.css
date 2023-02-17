@@ -1,0 +1,60 @@
+form.jqtransformdone label{
+	margin-top:4px;
+	margin-right: 8px;
+	display: block;
+	float:left;
+}
+form.jqtransformdone div.rowElem{
+	clear:both;
+	padding:4px 0px;
+}
+
+
+
+/* -------------
+ * Radios
+ * ------------- */
+.jqTransformRadioWrapper {float: left;display:block;margin:0px 4px;	margin-top:5px;}
+.jqTransformRadio {
+	background: transparent url("../img/radio.gif") no-repeat center top;
+	vertical-align: middle;
+	height: 19px;
+	width: 18px;
+	display:block;/*display: -moz-inline-block;*/
+}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+span.jqTransformCheckboxWrapper{
+	display:block;float:left;
+	margin-top:5px;
+}
+a.jqTransformCheckbox {
+	background: transparent url(../img/jq/checkbox.gif) no-repeat center top;
+	vertical-align: middle;
+	height: 19px;
+	width: 18px;
+	display:block;/*display: -moz-inline-block;*/
+}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+a.jqTransformChecked { background-position: center bottom;}
+
+
+.jqTransformSelectWrapper { width: 181px; position:relative; height: 30px; background: url("../img/select.png") no-repeat left top; float:left; text-indent:0px !important; }
+
+
+
+.jqTransformSelectWrapper div span { font-size: 12px; float: none; position: absolute; white-space: nowrap; height: 27px; line-height: 25px; padding: 3px 0 0 14px; overflow: hidden; cursor:pointer; color: #fff; }
+.jqTransformSelectWrapper  a.jqTransformSelectOpen { display: block; position: absolute; right: 0px; width: 31px; height: 21px; padding:0 !important; }
+
+.jqTransformSelectWrapper ul { position: absolute; width: 130px; top: 29px; right: 0px; list-style: none; background-color: #FFF; border: solid 1px #CCC; display: none; margin: 0px; padding: 0px; overflow: auto; overflow-y: auto; z-index:10; height:720px;}
+
+.jqTransformSelectWrapper ul a { display: block; padding: 2px 0 1px 5px; text-decoration: none; color:#333 !important; background-color: #FFF; font-size: 12px !important; }
+.jqTransformSelectWrapper ul a.selected { background: #fff6eb; color: #333 !important; }
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover { background:#3582c4; color: #fff !important; }
+.jqTransformHidden {display: none;}

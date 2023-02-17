@@ -1,0 +1,7 @@
+body { font-family:Tahoma, Geneva, sans-serif; font-size:12px; }
+table.compareTable { background-color:#cccccc; width:100%; border-collapse:separate !important; border-spacing:1px !important; }
+.compareTable tr { background-color:#FFFFFF;  }
+.compareTable td { padding:10px; width:300px; margin:1px; vertical-align:middle; }
+.compareTable tr:hover { background-color:#ddd; cursor:pointer; }
+.compareTable .label { color:red; font-weight:bold; font-size:13px; }
+.compareTable .data { }

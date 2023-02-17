@@ -1,0 +1,584 @@
+.clear{clear:both;}
+.loginForm td { padding:3px; }
+.loginForm input { width:140px; }
+
+.gf_input,.loginForm input { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.gf_select { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	padding:4px;
+}
+
+.gf_textarea { 
+	width:300px;
+	height:100px;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.loginInput {
+	float: right;
+	width: 93px;
+	border: 1px solid #aedae4;
+	margin-bottom: 9px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.generatedForm td { padding:3px; }
+.generatedForm { font-family:Arial, Helvetica, sans-serif; width:auto;  }
+.generatedForm .td1,.generatedForm .td2 { font-weight:bold; }
+.generatedForm .td1 { width:150px;}
+#gf_acceptRules  { width:500px; }
+
+.inner-content { padding:10px; padding-top:7px; font-size:12px;}
+.breadcrumbs{
+	list-style:none;
+	margin:0;
+	padding:9px 0 6px 3px;
+	overflow:hidden;
+	color:#235c7d;
+	font-size:12px;
+	line-height:16px;
+}
+.breadcrumbs li{
+	float:left;
+	background: url(images/arrow-breadcrumbs.png) no-repeat 0 5px;
+	padding:0 6px 0 12px;
+}
+.breadcrumbs li:first-child{
+	padding-left:0;
+	background:none;
+}
+.productdetay{
+
+}
+.productdetay .visual{
+	float:left;
+	width:300px;
+	height:338px;
+	text-align:center;
+	padding:2px 8px 2px 8px;
+	margin:4px 0 0 0;
+}
+.productdetay .visual img{
+	vertical-align:top;
+}
+.productdetay .holder{
+	float:left;
+	width:580px;
+}
+.productdetay h1{
+	font-size:24px;
+	font-weight:bold;
+	color:#4e4e4e;
+	display:block;
+	margin:0 0 18px;
+	margin-top:10px;
+}
+
+.productdetay h2{
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	color:#4e4e4e;
+	display:block;
+	margin:0 0 48px;
+}
+.productdetay select{
+	font-size:20px;
+	line-height:28px;
+	color:#898e91;
+	padding:0;
+	margin:0 0 0 2px;
+	display:block;
+}
+.add-form ul{
+	list-style:none;
+	margin:0;
+	padding:12px 0 17px;
+	overflow:hidden;
+	color:#657279;
+	font-size:16px;
+	line-height:32px;
+	width:100%;
+}
+.add-form li{
+	float:left;
+	margin:0 3px 0 4px;
+}
+.add-form li a{
+	display:block;
+	width:83px;
+	height:36px;
+	background:#f2f2f2;
+	text-align:center;
+	color:#657279;
+}
+.buy{
+	border-top:1px dotted #c2c2c2;
+	border-bottom:1px dotted #c2c2c2;
+	padding:12px 0 14px;
+	overflow:hidden;
+}
+.buy dl{
+	margin:0;
+	overflow:hidden;
+	border-right:1px dotted #9e9e9e;
+	float:left;
+	width:212px;
+	line-height:22px;
+	padding:0 0 0 12px;
+	white-space:nowrap;
+}
+.buy dt{
+	float:left;
+	color:#3c6e88;
+	width:95px;
+	font-size:15px;
+	white-space:nowrap;
+}
+.buy dd{
+	overflow:hidden;
+	font-size:18px;
+	color:#4f4f4f;
+	margin:0;
+	white-space:nowrap;
+}
+.add-form .add{
+	float:left;
+	padding:10px 0 0 24px;
+}
+.add-form .text{
+	float:left;
+	background: url(images/bg-text-add-form.png) no-repeat;
+	width:53px;
+	height:36px;
+	padding:3px 4px 5px;
+}
+.add-form .text input{
+	border:none;
+	background:none;
+	margin:0;
+	float:left;
+	font-size:24px;
+	line-height:30px;
+	width:31px;
+	padding:3px 11px 3px;
+	color:#767676;
+}
+.add-form  label{
+	float:left;
+	font-size:20px;
+	line-height:30px;
+	color:#767676;
+	padding:7px 13px 0 5px;
+}
+.add-form  .btn-add-to-cart{
+	background: url(images/btn-add-to-cart.png) no-repeat;
+	float:left;
+	border:none;
+	color:#287dae;
+	font-size:20px;
+	line-height:26px;
+	width:159px;
+	height:44px;
+	text-align:center;
+	padding: 7px 0 11px;
+}
+.add-form  .btn-add-to-cart:hover{
+	cursor:pointer;
+}
+ .social-networking{
+	padding:19px 0 0 2px;
+	float:right;
+}
+.social-networking img{
+	vertical-align:top;
+}
+.tabs {
+	padding:0 0 18px;
+	margin-top:10px;
+}
+.tabset {
+	list-style:none;
+	margin:0;
+	padding:0 0 9px;
+	overflow:hidden;
+	font-size:14px;
+	line-height:18px;
+}
+.tabset li{
+	float:left;
+	margin:0 3px 0 0;
+}
+.tabset a{
+	display:block;
+	border:1px solid #e0e9ef;
+	background: url(images/bg-tabset-li.png) repeat-x;
+	color:#828282;
+	width:125px;
+	height:30px;
+	text-align:center;
+	padding:12px 0 0;
+}
+.tabset a:hover,
+.tabset .active a{
+	background:none;
+	text-decoration:none;
+}
+.tab-list{
+	border:1px solid #e4e2e2;
+	padding:18px 0 26px 20px;
+	
+}
+.tab-list ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	line-height:24px;
+}
+.tab-list ul li{
+	background: url(images/bullet-tab-list-ul.png) no-repeat 0 13px;
+	padding:0 0 0 9px;
+}
+.tab-list ul a{
+	color:#828282;
+}
+.productdetays{
+	overflow:hidden;
+	padding:0;
+}
+div.innertitle { width:922px; height:22px; padding:5px; padding-left: 17px; background-color:#efefef; color:666; font-size:16px; margin-bottom:20px; margin-top:0; clear:both; font-weight:bold;  }
+div.innertitle a { color:#666; font-weight:bold; }
+.innercontent { clear:both; }
+.innercontent a,.urunLiteBaslik a { color:#0066cc; }
+.menu_table li  { color:#0066cc; line-height:20px; padding-bottom:10px;  }
+.menu_table a { color:#666; line-height:20px;  }
+.menu_table .dot { display:none; }
+.urunLiteResim { vertical-align:central; }
+#tabData { width:auto;  }
+.generatedForm { margin-left:15px; }
+.formlinefix { height:37px; margin-right:20px; }
+.urunsirala select { margin:5px; }
+.left-menu { width:200px; border-right:1px solid #ccc; margin-right:5px; padding-right:5px; float:left; }
+.left-title { color:white; font-weight:bold;  background-color:#bbb; font-size:15px; margin-bottom:20px; height:18px; padding:6px; }
+.pagination { width: 680px; padding: 10px;  margin: 0 0 10px 0; text-align:center;}
+.pagination .sort{float: right; font-size: 14px; font-weight:bold; color: #666; line-height: 24px;}
+.pagination .sort select {float: right; width: 140px; margin: 3px 0 0 10px;}
+.pagination .results {float: left; margin: 0 18px 0 0; font-weight:bold; font-size: 14px; color:#666;}
+.pagination .pages {float: left; line-height:12px; margin: 0 24px 0 0; width:100%; border-top:1px solid #ccc; padding:10px; margin:10px; padding-left:0; padding-right:0;}
+.pagination .pages a strong { font-size:18px; }
+.pagination .pages a{display: inline; color: #47819F; font-size: 14px; margin: 0 4px;}
+.pagination .pages a.xprev{display: inline-block; width:10px; height: 10px; background: url("images/prev.png") left center no-repeat; margin: 6px 10px 0 0;}
+.pagination .pages a.xnext{display: inline-block; width:10px; height: 10px; background: url("images/next.png") left center no-repeat; margin: 6px 0 0 10px;}
+.pagination .view {float: left; font-size: 14px; font-weight:bold; color: #49829d;}
+
+
+
+
+/*EKSTRA*/
+
+.urunListLiteTR{text-align:left;}	
+.urunLiteResim a{border:solid 1px #fff;}	
+.urunLiteBaslik {color:#333; text-align:left; text-decoration:none;}
+.urunLiteBaslik a{color:#333; text-align:left; text-decoration:none;}
+.urunuLiteIncele {color:#F60; text-decoration:none;}	
+.urunuLiteIncele a{color:#F60; text-decoration:none;}
+.urunuLiteIncele a:hover{color:#666;}
+.urunResim {border:solid 1px #fff;}	
+.etiket{color:#333;text-align:left;font-weight:normal;}
+.etiket a{color:#333;text-align:left; text-decoration:none}
+.BreadCrumb {color:#fff; text-decoration:none;}
+.secenekler{width:320px; border:solid 1px #f4f4f4;margin-bottom:10px;}
+.UrunSecenekleri{padding:5px; background:#f1f1f1; color:#069; margin:6px; text-align:left; font-size:13px;}
+.UrunSecenekleriHeader{padding:1px; color:#333; margin-top:6px; font-size:12px;}
+.updateUrunSecim{font-size:12px;}
+.UrunSecim{font-size:11px;}
+.KarsilastirmaListe lekle a{text-decoration:none;}
+.altmenuX a{color:#333; text-decoration:none; font-size:11px; padding:4px; line-height:14px; width:150px; border-bottom:dotted 1px #f4f4f4;}
+
+/* Sepet CSS */
+
+#sepetGoster { width:400px; display:none; position:absolute; z-index:10000; cursor:pointer; }
+
+table.sepet { width:100%; font-size:12px; background-color:#FFF; border-spacing:2px; border-collapse:collapse; }
+table.sepet th { color:#e81067; text-align:center; padding:5px; text-transform:capitalize; background:#f1f1f1; }
+table.sepet .tr_alternate td { background-color:#f0f0ee; }
+table.sepet tbody tr td { text-align:center; padding:5px; border:2px solid white; line-height:11px; }
+table.sepet table tbody tr td { padding:0px; border:none; }
+table.sepet span { color:#666; text-decoration:underline; cursor:pointer; }
+table.sepet .table td { padding:0px; padding-left:3px; padding-right:3px;}
+table.sepet .urun a { color:#666; text-decoration:none; }
+
+
+
+.sepetToplam { text-align:right; margin-right:2px; margin-top:10px;  }
+.sepetToplam table { border:0px solid #dbdbdb; background:#f8f8f8; text-align:left; width:370px; font-size:12px; float:right; }
+.sepetToplam table .td1 { width:270px;  }
+.sepetToplam table td {  padding:1px; padding-left:4px; padding-right:4px; font-size:12px; }
+.sepetToplam table .toplam { color:#ec001f; font-weight:bold; }
+
+
+.sepetMenu { text-align:right; margin-right:2px; margin-top:16px; }
+.sepetMenu .table { float:right; }
+.sepetMenu .table , .sepetMenu .table a  { text-align:left; width:370px; font-weight:bold; color:#555555;}
+.sepetMenu .table span { color:#4967a0; }
+.sepetMenu .table table { float:right; }
+.sepetMenu .table .td1 { width:150px; }
+
+.sepetMouseOver { display:block; margin-bottom:10px; background-color:#FFF; }
+.sepetMouseOver td { padding:4px; background-color:#FFF; }
+.sepetUrunDetay { border:1px solid #dddddd; padding:5px; background-color:white; margin-top:5px; position:absolute; display:none; z-index:50; }
+.toplam { white-space:nowrap; }
+
+#toplamUrun{color:#ef0743; font-weight:bold;}
+
+/* Sepet CSS */
+
+input,textarea { color:#555;}
+.loginForm td { padding:3px; }
+.loginForm input { width:140px; }
+#ebulteninput{width:180px;}
+
+.gf_input,.loginForm input { 
+	width:120xp;
+	border: 1px solid #ececec;
+	margin-bottom: 2px;
+	height: 18px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.gf_select { 
+	width:120xp;
+	border: 1px solid #ececec;
+	padding:4px;
+}
+
+.gf_textarea { 
+	width:300px;
+	height:100px;
+	border: 1px solid #ececec;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.loginInput {
+	float: left;
+	width: 133px;
+	border: 1px solid #ececec;
+	margin-bottom: 9px;
+	height: 18px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.ac_input { margin:3px;}
+.generatedForm td { padding:2px; }
+.generatedForm { width:auto;  }
+.generatedForm .td1,.generatedForm .td2 { font-weight:bold; }
+.generatedForm .td1 { width:150px;}
+#gf_acceptRules  { width:400px; }
+
+
+/* GÜNCELLEMELER */
+
+.fiyatBaslik{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px; color:#666; margin-bottom:5px;}
+.piyasa-fiyati{text-decoration:line-through; font-size:16px;}
+.fiyati{text-decoration:none; font-size:16px; color:#d7085b;}
+#hello, #hello a{color:#333; font-weight:bold;}
+.ebulten { margin:8px; }
+
+/*DETAY*/
+
+.urunSecimTable { width:98%; height:40px; background:#f8f8f8; margin-bottom:10px;}
+.urunSecimTable tr{margin:5px; }
+.UrunSecenekleriHeader{line-height:16px;padding-left:10px; font-size:16px;}
+#urunSecim_ozellik1detay {margin:2px; font-size:12px; height:28px; background:#FDFEE7; color:#333; border:solid 1px #e1e1e1; padding:4px;}
+#urunSecim_ozellik2detay {margin:2px; font-size:12px; height:28px; background:#FDFEE7; color:#333; border:solid 1px #e1e1e1; padding:4px;}
+#urunSecim_ozellik3detay {margin:2px; font-size:12px; height:28px; background:#FDFEE7; color:#333; border:solid 1px #e1e1e1; padding:4px;}
+.urunSecim ul li a{font-size:12px;}
+.fiyatBaslik{font-size:14px; color:#666;}
+.piyasa-fiyati{text-decoration:line-through; font-size:16px;}
+.fiyati{text-decoration:none; font-size:16px; color:#d7085b;}
+
+.product{
+	padding:0 0 14px;
+}
+.visual{
+	float:left;
+	width:342px;
+	
+	text-align:center;
+	padding:2px 8px 2px 8px;
+	margin:4px 5px 0 0;
+}
+.visual img{
+	vertical-align:top;
+}
+
+.product h1{
+	font-size:16px;
+	font-weight:bold;
+	color:#666;
+	display:block;
+	margin:0 0 5px;
+	margin-top:10px;
+}
+
+.product h2{
+	font-size:13px;
+	line-height:15px;
+	font-weight:normal;
+	color:#666;
+	display:block;
+	margin:0 0 48px;
+}
+.product select{
+	font-size:20px;
+	line-height:28px;
+	color:#898e91;
+	padding:0;
+	margin:0 0 0 2px;
+	display:block;
+}
+.add-form ul{
+	list-style:none;
+	margin:0;
+	padding:12px 0 17px;
+	overflow:hidden;
+	color:#657279;
+	font-size:16px;
+	line-height:32px;
+	width:100%;
+}
+.add-form li{
+	float:left;
+	margin:0 3px 0 4px;
+}
+.add-form li a{
+	display:block;
+	width:83px;
+	height:36px;
+	background:#f2f2f2;
+	text-align:center;
+	color:#657279;
+}
+.buya{
+	font-size:16px;
+	margin-top:10px;
+	overflow:hidden;
+	
+}
+.buy{
+	border-top:1px dotted #c2c2c2;
+	border-bottom:1px dotted #c2c2c2;
+	padding:12px 0 14px;
+	overflow:hidden;
+	margin-bottom:10px;
+	line-height:29px;
+	width:580px;
+}
+.buy dl{
+	margin:0;
+	overflow:hidden;
+	
+	float:left;
+	width:212px;
+	line-height:25px;
+	padding:0 0 0 12px;
+	white-space:nowrap;
+}
+.buy dt{
+	float:left;
+	color:#3c6e88;
+	width:95px;
+	font-size:12px;
+	white-space:nowrap;
+}
+.buya dd{
+	overflow:hidden;
+	line-height:24px;
+	font-size:22px;
+	color:#333;
+	margin:0;
+	white-space:nowrap;
+	
+}
+.add-form .add{
+	float:left;
+	padding:10px 0 0 24px;
+}
+.add-form .text{
+	float:left;
+	background: url(images/bg-text-add-form.png) no-repeat;
+	width:53px;
+	height:36px;
+	padding:3px 4px 5px;
+}
+.add-form .text input{
+	border:none;
+	background:none;
+	margin:0;
+	float:left;
+	font-size:24px;
+	line-height:30px;
+	width:31px;
+	padding:3px 11px 3px;
+	color:#767676;
+}
+.add-form  label{
+	float:left;
+	font-size:20px;
+	line-height:30px;
+	color:#767676;
+	padding:7px 13px 0 5px;
+}
+
+.add-form  .btn-add-to-cart:hover{
+	cursor:pointer;
+}
+ .social-networking{
+	padding:19px 0 0 2px;
+	float:right;
+	margin-right:10px;
+}
+.social-networking img{
+	vertical-align:top;
+}
+
+
+/*anasayfa banner*/
+.duyuruPaneli{ width:970px; font-family: Tahoma, Geneva, sans-serif}
+.rek1{width:310px; height:115px; background:url(images/banner1bg.png) no-repeat; float:left; margin-right:10px; padding-top:20px;}
+.rek2{width:310px; height:115px; background:url(images/banner2bg.png) no-repeat; float:left; margin-right:10px;padding-top:20px;}
+.rek3{width:310px; height:115px; background:url(images/banner3bg.png) no-repeat; float:left;padding-top:20px;}
+.rekBaslik{ font-size:16px; color:#069; font-weight:bold;}
+.rekBaslik span{ color:#f90;}
+.rekicerik{margin-top:10px;font-size:14px; color:#555;}
+
+.rekBaslik2{ font-size:16px; color:#069; font-weight:bold;}
+.rekBaslik2 span{ color:#f90;}
+.rekicerik2{margin-top:10px;font-size:14px; width:150px; color:#555;}
+
+.rekBaslik3{ font-size:16px;  color:#069; font-weight:bold;}
+.rekBaslik3 span{ color:#f90;}
+.rekicerik3{margin-top:10px; width:150px;font-size:14px; color:#555;}
+.rekicerik3 span{color:#F06; font-size:14px;}

@@ -1,0 +1,24 @@
+
+/* Easy Slider */
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:705px;
+		height:327px;
+		overflow:hidden; 
+		}	
+	#slider img{705px; height:327px;}
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ display:none;}	
+	
+/* // Easy Slider */

@@ -1,0 +1,139 @@
+/* Furkan TOPALOÐLU tarafýndan 15 Ekim 2012 Tarihinde Lucida Black için yazýlmýþtýr. */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: inherit;
+	__vertical-align: baseline;
+}
+td { vertical-align:central; }
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+strong,b{font-weight:bold;}
+
+a{text-decoration:none;}
+
+/* site */
+body{background:url(../resimler/bgclick.png) no-repeat top center #f4f5f7; font-family:tahoma; background-color:#dbdfeb;}
+
+/* CONTAINER */
+#container{ width:972px; min-height:300px; margin:30px auto ; padding-bottom:10px; background:#fff; border:1px solid #cfcccc; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;}
+/* CONTAINER 2 */
+.container-2{width:972px; margin:0 auto; }
+/* HEADER */
+#header{margin:20px 0 0 0;}
+	/* LOGO */
+	#logo{margin-left:15px; float:left; height:80px;}
+	/* TOP MENU */
+	#top-menu{background:url(../resimler/ustmenubg.png); width:359px; height:45px; float:right; margin:10px 15px 0 0;}
+	#top-menu ul{}
+	#top-menu ul li{float:left; padding-left:28px; margin:12px 0 0 18px; font-size:13px; line-height:22px;}
+	#top-menu ul li a{color:#6f6e6e;}
+	#top-menu ul li.customer-service{background:url(../resimler/ustmenuikon.png) no-repeat 0 0; height:22px;}
+	#top-menu ul li.my-account{background:url(../resimler/ustmenuikon.png) no-repeat 0 -22px; height:25px;}
+	#top-menu ul li.my-basket{background:url(../resimler/ustmenuikon.png) no-repeat 0 -48px; height:23px;}
+	/* MENU */
+	#menu{background:url(../resimler/menubg.png); width:946px; height:49px; margin:10px 0 0 10px;}
+	#menu ul li{float:left; font-size:14px; background:url(../resimler/menulist.png) no-repeat right; height:45px; line-height:38px; padding-right:15px; }
+	#menu ul li a{color:#fff;}
+		/* SEARCH */
+		#search{float:right; margin:8px 10px 0 0;}
+			input.search-box{background:url(../resimler/arama.png) no-repeat 0 0; width:147px; height:28px; border:none; padding:8px 5px 0 25px; font-size:12px; color:#aaa; float:left;}
+			input.search-button{background:url(../resimler/arama.png) no-repeat -177px 0; border:none; width:65px; height:33px; float:left;}
+/* SLÝDER */
+#slider{margin:10px 0 0 13px; float:left}
+#slider li { height:285px; }
+/* LEFT BOX */
+#left-box{width:342px; float:left; margin:10px 0 0 5px;}
+	/* EMAÝL */
+	#email-box{background:url(../resimler/emailbox.png); width:342px; height:142px;}
+	#email-box h1{background:url(../resimler/mail.png) no-repeat left; font-size:14px; color:#595959; padding-left:30px; float:left; margin:10px;}
+	#email-box p{font-size:12px; color:#767676; margin:0 0 0 10px;}
+	input.email-box{background:url(../resimler/eposta.png) 0 0; border:none; width:197px; height:28px; padding:8px 5px 0 10px; float:left; font-size:12px; color:#aaa;}
+	input.email-button{background:url(../resimler/eposta.png) -214px 0px; border:none; width:84px; height:35px;  float:left; cursor:pointer;}
+	#email-box form{margin:15px 0 0 10px;}
+	/* FACEBOOK PAGE */
+	#facebook-page{background:url(../resimler/facebookpage.png); width:351px; height:145px; }
+	#facebook-page img{margin:30px 10px 15px 10px; float:left;}
+	#facebook-page h1{font-size:16px; color:#fff; text-shadow:1px 1px  3px #2e446e;  font-weight:normal; padding:25px 0 0 0;}
+	#facebook-page p{font-size:12px; font-size:13px; color:#fff; padding:0 10px 0 0; margin:5px 0 0 0;}
+/* BANNER */
+#banner{margin:0 auto; width:945px;}
+/* INFO */
+#info{margin:10px 0 10px 15px;}
+/* PRODUCTS */
+	/* TABS */
+	 .ui-tabs { position: relative; padding: .2em;  } 
+	.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+	.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+	.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+	.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+	.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+	.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } 
+	.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+	.ui-tabs .ui-tabs-hide { display: none !important; }
+	#tabs{margin-left:5px;}
+	#tabs li a{background:url(../resimler/kategoriaktif.png); width:123px; height:39px; font-size:14px; line-height:39px; text-align:center; color:#fff; text-align:center; padding:0;} 
+	.ui-state-active a{ background: url(../resimler/kategoribg.png) !important; color:#626262 !important;} 
+	.products-content{background:#f3f3f3; width:948px; margin-left:4px; padding:0; border-radius:8px; border-top-left-radius: 0px; -moz-border-radius:10px; -moz-border-radius-topleft: 0px; -webkit-border-radius:10px; -webkit-border-top-left-radius: 0px;}
+	/* PRODUCT */
+	.product{width:223px; height:280px; background:#fff; border:1px solid #eee; float:left; margin:0 23px 10px -15px;}
+	p.product-photo{text-align:center; margin:20px 0 10px 0; height:135px;}
+	p.product-photo img{max-width:100%; max-height:140px;}
+	p.product-name{text-align:center; font-size:16px; height:40px;}
+	p.product-name a{color:#494848;}
+	p.product-info{color:#818181; font-size:11px; text-align:center; margin:5px 0 5px 0;}
+	p.price{color:#e1840b; text-align:center; margin:5px 0 5px 0;}
+	p.detail{text-align:center;}
+/* BOTTOM INFO */
+#bottom-info{background:url(../resimler/altbilgi.png); width:974px; height:46px; margin:-20px 0 10px 0; text-align:center; line-height:42px; color:#333;}
+/* FOOTER */
+#footer{background:#f0eff3; border:1px solid #cecece; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; width:971px;  margin-bottom:10px;}
+	/* FOOTER LEFT */
+	#footer-left{margin:25px; width:570px; font-size:13px; color:#444e54; float:left; margin-right:5px;}
+	#footer-left ul{font-size:13px; color:#606568; margin:10px ; float:left; margin-right:25px;}
+	#footer-left ul li{font-size:13px; color:#606568;}
+	#footer-left ul li a{color:#606568;}
+	#footer-left p{margin:25px 0 0 10px;}
+	/* FOOTER RÝGHT */
+	#footer-right{background:url(../resimler/ayrac.png) no-repeat left; height:300px; float:right; margin-right:25px; width:300px; padding-left:40px;}
+	#footer-right h1{color:#235d7b; font-size:18px; font-weight:normal; margin:20px 0 0 0;}
+	#footer-right p{font-size:10px; color:#aaa; margin:15px 0 0 0; width:250px;}
+	#footer-right form{margin:10px 0 0 0;}
+	input.bulten-box{background:url(../resimler/bulten.png) 0 0; width:231px; height:25px; border:none; padding:15px 5px 0 5px; float:left; font-size:12px; color:#aaa; }
+	input.bulten-button{background:url(../resimler/bulten.png) -241px 0; width:55px; float:left; border:none; cursor:pointer; height:41px;}
+	#bank{margin:15px 0 0 0;}
+	
+#option2 { display:none; }

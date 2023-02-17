@@ -1,0 +1,148 @@
+.pagination { width: 740px; padding: 10px;  margin: 0 0 10px 0; text-align:center;}
+.pagination .sort{float: right; font-size: 14px; font-weight:bold; color: #666; line-height: 24px;}
+.pagination .sort select {float: right; width: 140px; margin: 3px 0 0 10px;}
+.pagination .results {float: left; margin: 0 18px 0 0; font-weight:bold; font-size: 14px; color:#666;}
+.pagination .pages {float: left; line-height:12px; margin: 0 24px 0 0; width:100%; border-top:1px solid #ccc; padding:10px; margin:10px; padding-left:0; padding-right:0;}
+.pagination .pages a strong { font-size:18px; }
+.pagination .pages a{display: inline; color: #47819F; font-size: 14px; margin: 0 4px;}
+.pagination .pages a.xprev{display: inline-block; width:10px; height: 10px; background: url("images/prev.png") left center no-repeat; margin: 6px 10px 0 0;}
+.pagination .pages a.xnext{display: inline-block; width:10px; height: 10px; background: url("images/next.png") left center no-repeat; margin: 6px 0 0 10px;}
+.pagination .view {float: left; font-size: 14px; font-weight:bold; color: #49829d;}
+.UrunSecenekleri { display:none; }
+.urunSecimTable { margin-top:-20px; }
+.dstoretab { width:970px; }
+#dstoretab3 { font-size:11px; white-space:nowrap;}
+div.innertitle { width:983px; height:18px; padding:10px; background-color:#81c5e8; color:white; font-size:18px; margin-bottom:20px; margin-top:5px; clear:both; font-weight:bold;  }
+div.innertitle a { color:white; font-weight:bold; }
+.innercontent { clear:both; }
+
+.left-menu { width:200px; border-right:1px solid #ccc; margin-right:5px; padding-right:5px; float:left; margin-top:5px; }
+.left-menu ul { margin:0; padding:0; list-style-type:none; font-size:12px; margin-bottom:15px; margin-left:10px; }
+.left-title { color:white; font-weight:bold;  background-color:#bbb; font-size:18px; margin-bottom:20px; height:18px; padding:10px; }
+.loginForm td { padding:3px; }
+.loginForm input { width:140px; }
+
+.gf_input,.loginForm input { 
+width:120xp;
+border: 1px solid #aedae4;
+margin-bottom: 2px;
+height: 22px;
+padding-top: 4px;
+padding-left: 3px;
+padding-right: 3px;
+}
+
+.gf_select { 
+width:120xp;
+border: 1px solid #aedae4;
+padding:4px;
+}
+
+.gf_textarea { 
+width:300px;
+height:100px;
+border: 1px solid #aedae4;
+margin-bottom: 2px;
+padding-top: 4px;
+padding-left: 3px;
+padding-right: 3px;
+}
+.loginInput {
+float: right;
+width: 93px;
+border: 1px solid #aedae4;
+margin-bottom: 9px;
+height: 22px;
+padding-top: 4px;
+padding-left: 3px;
+padding-right: 3px;
+}
+
+.generatedForm td { padding:3px; }
+.generatedForm { font-family:Arial, Helvetica, sans-serif; width:auto;  }
+.generatedForm .td1,.generatedForm .td2 { font-weight:bold; }
+.generatedForm .td1 { width:150px;}
+#slide {
+float: left;
+width: 663px;
+height: 350px;
+position: relative;
+margin: 1px 0 0 0;
+}
+.borderLeft {position: absolute; top: 0; left: 0;z-index: 99999;width: 6px;height: 350px;background: url(images/2border.png) top left no-repeat;}
+.borderRight {position: absolute; top: 0; right: 0;z-index: 99999;width: 6px;height: 350px;background: url(images/2border.png) top right no-repeat;}
+
+.slide {
+float: left;
+width: 663px;
+height: 350px;
+position: relative;
+overflow:hidden;
+}
+.slide ul {
+float: left;
+width: 663px;
+height: 350px;
+}
+.slide ul li {
+width: 663px;
+height: 350px;
+position: relative;
+}
+.slide ul li a {
+color: #fff;
+font-weight: bold;
+font-family: "Calibri", Arial, Helvetica, sans-serif;
+}
+.slideNav {
+position: absolute;
+width: 663px;
+height: 70px;
+background: #000;
+left: 0;
+bottom: 0;
+background: url("images/slideNav.png") top left no-repeat;
+color: #fff;
+}
+.slideNav strong {
+float: left;
+width: 97px;
+height: 70px;
+line-height: 70px;
+text-align: center;
+font-size: 11px;
+}
+.slide ul li h4 {
+float: left;
+width: 450px;
+height: 70px;
+line-height: 65px;
+font-size: 22px;
+text-indent: 20px;
+margin-top:0px;
+}
+.ps {
+position: absolute;
+width: 150px;
+height: 44px;
+bottom: 0;
+right: 10px;	
+z-index: 9999;
+}
+.ps a {
+float: left;
+display: block;
+width: 18px;
+height: 18px;
+margin: 0 12px 0 0;
+text-indent: -9999px;
+background: url("images/ps.png") top left no-repeat;
+}
+
+.ps a.here, .ps a:hover {
+background: url("images/p.png") top left no-repeat;
+}
+.catsubmenu { padding-bottom:6px; padding-top:6px; }
+
+.catsubmenu td { height:10px; overflow:hidden; padding:0; margin:0; line-height:12px; }
+

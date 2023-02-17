@@ -1,0 +1,68 @@
+.loginForm td { padding:3px; }
+.loginForm input { width:140px; }
+
+.gf_input,.loginForm input { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.gf_select { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	padding:4px;
+}
+
+.gf_textarea { 
+	width:300px;
+	height:100px;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.loginInput {
+	float: right;
+	width: 93px;
+	border: 1px solid #aedae4;
+	margin-bottom: 9px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.generatedForm td { padding:3px; }
+.generatedForm { font-family:Arial, Helvetica, sans-serif; width:auto;  }
+.generatedForm .td1,.generatedForm .td2 { font-weight:bold; }
+.generatedForm .td1 { width:150px;}
+#gf_acceptRules  { width:500px; }
+.imgSepetGosterOcean { cursor:pointer; }
+.ebultenerror,.ebulteninfo { display:none; }
+#ebulteninput{width:180px; float:left;}
+
+#menu div { display:none; position:absolute; border:5px solid #3F3F3F; border-top:none; padding:5px; top:35px; left:17px; background-color:#4E4E4E; z-index; width:200px; }
+#menu li { position:relative; }
+#menu li div li { background:none; padding:0; border:0; margin:0; border-bottom:1px solid #3F3F3F; padding:2px; height:auto; width:100%; line-height:20px; }
+#menu li div li a { text-decoration:none; white-space:nowrap; height:auto; padding:0; margin:0; font-size:12px; }
+#menu li:hover div { display:block; }
+.big-title a,.urunListLiteTR a { color:inherit; }
+.urunListLiteTR td { vertical-align:top; padding-top:5px; font-size:14px;}
+.urunLiteBaslik { padding-top:10px; }
+.big-icerik { font-size:12px; padding-top:10px; padding-bottom:10px; }
+#product-details { width:100%; }
+#detail-title { width:100%; border-bottom:1px solid #ececec; height:25px; }
+#filters p{float:left;}
+#filters select { background: #F8F8F8; border: 1px solid #CCCCCC; padding:7px; }
+div.category-filter{margin-top:10px;  float:left;}
+div.size-filter{margin-top:10px;  float:right; }
+.filterSelected { margin-top:-10px; }
+
+ul#menu li div { z-index:10000; }
+.formlinefix { background:none !important; }
+.urunsirala { padding-top:5px;}

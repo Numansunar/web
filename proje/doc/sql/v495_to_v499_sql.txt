@@ -1,0 +1,2 @@
+UPDATE `siteConfig` SET `version` = '4.95' WHERE `siteConfig`.`ID` =1;
+# INSERT INTO `adminmenu` (`ID`, `parentID`, `Adi`, `Icon`, `Dosya`, `Aktif`, `Sira`, `SiteTipi`) VALUES ('0', '58', 'Kredi Kartı BIN Listesi', '', 'cc-bin.php', '1', '49', '');

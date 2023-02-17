@@ -1,0 +1,1449 @@
+@charset "utf-8";
+/* Sepet CSS */
+.spacer {
+    box-shadow: none;
+    border: 0;
+    width: 1px;
+    visibility: hidden;
+}
+
+table.sepet {
+    width: 100%;
+    font-size: 11px;
+    background-color: #FFF;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+
+table.sepet th {
+    color: #88c337;
+    text-align: center;
+    padding: 5px;
+    text-transform: lowercase;
+}
+
+table.sepet .tr_alternate td {
+    background-color: #f0f0ee;
+}
+
+table.sepet tbody tr td {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid white;
+    line-height: 11px;
+}
+
+table.sepet table tbody tr td {
+    padding: 0px;
+    border: none;
+}
+
+table.sepet span {
+    color: #ec001f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table.sepet .table td {
+    padding: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+
+.sepet3.bold {
+    font-weight: bold;
+}
+
+.sepetToplam {
+    text-align: right;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+
+.sepetToplam table {
+    border: 1px solid #dbdbdb;
+    text-align: left;
+    width: 370px;
+    font-size: 11px;
+    float: right;
+}
+
+.sepetToplam table .td1 {
+    width: 270px;
+}
+
+.sepetToplam table td {
+    padding: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.sepetToplam table .toplam {
+    color: #ec001f;
+    font-weight: bold;
+}
+
+.sepetMenu {
+    text-align: right;
+    margin-right: 2px;
+    margin-top: 16px;
+}
+
+.sepetMenu .table {
+    float: right;
+}
+
+.sepetMenu .table, .sepetMenu .table a {
+    text-align: left;
+    width: 370px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.sepetMenu .table span {
+    color: #4967a0;
+}
+
+.sepetMenu .table table {
+    float: right;
+}
+
+.sepetMenu .table .td1 {
+    width: 130px;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.sepetSatirSil {
+    margin-top: 30px;
+    float: left;
+}
+
+.sepetMouseOver {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+
+.sepetMouseOver td {
+    padding: 4px;
+    background-color: #FFF;
+}
+
+.sepetUrunDetay {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    background-color: white;
+    margin-top: 5px;
+    position: absolute;
+    display: none;
+    z-index: 50;
+}
+
+.toplam, .sepetMenu {
+    white-space: nowrap;
+}
+
+.sepet-info {
+    padding: 10px;
+    border: 1px solid green;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.sepet-info a {
+    color: red;
+}
+
+.sepet-info strong {
+    text-transform: lowercase;
+}
+
+#sepetGoster {
+    max-width: 700px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    cursor: pointer;
+}
+
+#sepetGoster .sepet-kapat {
+    display: none;
+}
+
+#sepetGoster .sepet-info, #sepetGoster a.grey {
+    display: none;
+}
+
+#sepetGoster a.lightbox {
+    display: none;
+}
+
+#sepetGoster .cart-detail table {
+    min-height: 70px;
+}
+
+#sepetGoster h1 {
+    margin-top: 15px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+#sepetGoster h3 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#sepetGoster .sepet-goster-container {
+    border: 10px solid #eee;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+#sepetGoster .basket-right  {
+    display: none;
+}
+
+#sepetGoster .sepet-goster-container .basket-left {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+
+.sepet-sep {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 1px;
+    background-color: #aaa;
+    clear: both;
+}
+
+.sepet-satir-sil {
+    width: 3%;
+    right: 15px;
+    position: absolute;
+
+}
+
+.sepet-satir-sil img {
+    margin-top: 30px;
+    float: left;
+}
+
+.cart-detail {
+    position: relative;
+}
+
+.sepet-kapat {
+    position: absolute;
+    top: 32px;
+}
+
+.cart-detail .propicer img {
+    margin-left: 30px;
+    max-width: 65px;
+}
+
+/* Sepet CSS */
+
+/* .basket-wrap{width:100%; margin: auto; } */
+
+.basket-wrap {
+    margin: auto;
+    width: 100%;
+    visibility: hidden;
+}
+
+.basket-wrap .guncelle {
+    display: none;
+    float: left;
+}
+
+.basket-title {
+    background-color: #ebebeb;
+    border-bottom: 1px solid #f9f9f9;
+    width: 100%;
+    height: 35px;
+    font-size: 11px;
+    color: #7a7a7a;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+}
+
+.basket-title div {
+    border-right: 1px solid #fff;
+}
+
+.basket-title div span {
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 #FFF;
+    text-transform: uppercase;
+}
+
+.basket-title div:last-child {
+    border: none;
+}
+
+.cart-detail {
+    width: 41%;
+    float: left;
+    text-align: left;
+}
+
+.cart-detail table {
+    width: auto !important;
+}
+
+.cart-detail table tr td {
+    vertical-align: middle;
+    min-height: 70px;
+    background: none !important;
+}
+
+.cart-detail span {
+    padding-left: 10px !important;
+}
+
+.cart-price {
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+
+.cart-pricex {
+    width: 12%;
+    font-weight: normal;
+}
+
+.pricersmall {
+    background-image: url(xxx.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.basket-wrap .cart-qty {
+    width: 12%;
+    float: left;
+    text-align: center;
+}
+
+.basket-wrap .cart-qty form {
+    width: 80px;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+}
+
+.degistir-form {
+    min-height: 80px;
+}
+
+.basket-wrap .cart-qty .sepetbirim {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 90px;
+    font-size: 12px;
+}
+
+.basket-wrap .cart-qty .sepetadet {
+    position: absolute;
+    margin: auto;
+    top: 35px;
+    left: 43px;
+    font-size: 12px;
+}
+
+.basket-wrap .cart-total-price {
+    width: 15%;
+    float: left;
+}
+
+.basket-item {
+    height: 80px;
+    margin-top: 3px;
+    clear: both;
+    position: relative;
+}
+
+.basket-item.row2 {
+    background: #fff;
+}
+
+.basket-item.row1 {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border-radius: 1px;
+}
+
+.basket_seperator {
+    display: none;
+    background: url(../images/pattern.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 1px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.cart-detail {
+}
+
+.cart-detail img {
+    border-radius: 4px;
+    box-shadow: 0 0 2px #DDD9BB;
+    float: left;
+    margin: 9px 10px 0;
+}
+
+.cart-detail h1 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.cart-detail h1 a {
+    color: #4A4A4A;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cart-detail h1 a:hover {
+}
+
+.cart-info {
+    color: #848484;
+    float: left;
+    font-family_x: trebuchet ms;
+    font-size: 11px;
+    width: auto;
+    line-height: 15px;
+    width: auto;
+    padding-left: 10px;
+}
+
+.cart-info span {
+    color: #ea2700;
+}
+
+.cart-info a {
+    color: #ea2700 !important;
+    font-size: 14px;
+}
+
+.basket-item .cart-price {
+    color: #000;
+    font-family_x: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #FFF;
+}
+
+.basket-item .cart-qty {
+    text-align: center;
+    height: 40px;
+}
+
+.basket-item .cart-total-price {
+    color: #000;
+    font-family_x: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 80px;
+    letter-spacing: 0;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #FFF;
+}
+
+.basket-item .cart-total-price img {
+    float: right;
+    margin-top: 32px;
+    margin-right: 5px;
+}
+
+.basket-wrap div.qty {
+    margin-top: 25px;
+    background: url(../images/qty.png);
+    width: 47px !important;
+    height: 34px !important;
+    padding: inherit;
+    border: none;
+}
+
+.basket-wrap input.qty {
+    text-align: center;
+    background: none;
+    width: 27px !important;
+    height: 34px !important;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    float: left;
+}
+
+.basket-wrap div.show-qty {
+    width: auto;
+    height: 34px;
+    border: none;
+    padding: 0 20px 0 0;
+    font-size: 10px;
+    margin-top: 25px;
+    text-indent: 13px;
+    text-align: center;
+}
+
+.basket-wrap input.arttir {
+    background: url(../images/arttir.png);
+    width: 9px;
+    height: 6px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 17px;
+    top: 34px;
+}
+
+.basket-wrap input.azalt {
+    background: url(../images/azalt.png);
+    width: 9px;
+    height: 6px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 17px;
+    top: 44px;
+}
+
+.discount-coupon {
+    background: #F9F9F9;
+    float: left;
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.discount-coupon .coupon {
+    padding: 10px;
+}
+
+.coupon-title {
+    color: #3b5372;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: -9px;
+    margin-top: 0;
+    padding-left: 1px;
+    text-shadow: -1px -1px 0 #F8F6E6;
+}
+
+.coupon-code {
+    background: #fff;
+    width: 50%;
+    height: 36px;
+    margin-top: 15px;
+    float: left;
+    padding: 0 10px;
+    color: #999;
+}
+
+.coupon-box {
+    background-color: #bbb;
+    white-space: nowrap;
+    height: 40px;
+    border: none;
+    display: inline;
+    float: right;
+    margin-top: 15px;
+    width: 117px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.coupon-box:hover {
+    background-color: green;
+}
+
+.basket-right {
+    color: #A8A8A8;
+    float: right;
+    font-family_x: trebuchet ms;
+    margin-top: 22px;
+    min-width: 400px;
+    width: 45%;
+    clear: both;
+}
+
+.basket-right ul {
+    padding: 0;
+}
+
+.basket-right ul li {
+    height: 40px;
+    line-height: 40px !important;
+    list-style-type: none;
+    clear: both;
+    padding: 0;
+}
+
+.basket-right ul li span.sepet1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #343434;
+    display: block;
+    width: 55%;
+    float: left;
+    text-align: right;
+}
+
+.basket-right ul li span.sepet2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #343434;
+    width: 2%;
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+
+.basket-right ul li span.sepet3 {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    display: block;
+    float: right !important;
+    font-size: 12px;
+    margin-bottom: 2px;
+    padding: 5px;
+    padding-right: 10px;
+    text-align: right;
+    min-width: 35%;
+}
+
+.basket-right ul li.total, .basket-right ul li.kdv {
+    background: #fff;
+    border: none;
+}
+
+.basket-right ul li.kargo {
+    height: 50px;
+    line-height: 50px;
+}
+
+.basket-right ul li.kargo span.sepet1, .basket-right ul li.kargo span.sepet2, .basket-right ul li.kargo span.sepet3 {
+    font-weight: bold !important;
+}
+
+.basket-right ul li.tutar span.sepet1, .basket-right ul li.tutar span.sepet2, .basket-right ul li.tutar span.sepet3 {
+    font-weight: bold !important;
+}
+
+.basket-right ul li span.blue {
+    color: #7a7a7a;
+    
+    font-size: 14px;
+}
+
+.basket-right ul li span.sepet2 {
+    font-weight: normal;
+    color: #7e7e7e;
+    display: none;
+}
+
+.basket-right ul li span.green {
+    color: #579932;
+    
+    font-size: 14px !important;
+    font-weight: bold
+}
+
+.sepet3.promosyon {
+    color: #E93B9D;
+    
+    font-size: 13px !important;
+    white-space: nowrap;
+}
+
+.sepet3.puan {
+    color: #E93B9D;
+    
+    font-size: 13px !important;
+    white-space: nowrap;
+}
+
+.basket-right ul li span.red {
+    color: red;
+    
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.basket-right ul {
+    background: none repeat scroll 0 0 #F9F9F9;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.basket-right ul li span.green b {
+    color: #7e7e7e;
+}
+
+.basket-right ul li span.red b {
+    color: red;
+}
+
+.basket-right ul li span.total {
+    font-size: 18px;
+}
+
+.grey {
+    backgroundx: url(../images/grey.png);
+    background-color:#919191;
+    border-radius: 5px;
+    
+    color: #fff !important;
+    width: 169px;
+    height: 41px;
+    border: none;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px !important;
+    font-weight: bold;
+    line-height: 41px;
+    margin-top: 15px;
+}
+
+div.basket-button a.grey {
+    color: #6a7175;
+}
+
+.grey:hover {
+    background-color:red;
+}
+
+.green-button {
+    background-color: #919191;
+    border-radius: 5px;
+    color: #fff !important;
+    width: 241px;
+    height: 40px;
+    border: none;
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-shadowx: 1px 1px 1px #30700b;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+a.green-button:hover {
+    background-color: #59b210 !important;
+}
+
+#sepetGoster .discount-coupon, #sepetGoster .cart-price {
+    display: none;
+}
+
+#sepetGoster .cart-detail {
+    width: 50% !important;
+}
+
+#sepetGoster .cart-qty {
+    width: 26% !important;
+}
+
+/* responsive */
+/* Eï¿½ER TEMA FULL WIDTH ISE TEMAYA Aï¿½Aï¿½IDAKï¿½ KODLAR EKLENSï¿½N */
+.sf-text-label {
+    color: #34495E;
+    display: inline-block;
+    font-family_x: 'Open Sans', sans-serif;
+    font-size: .95em;
+    font-weight: 700;
+    line-height: 2em;
+    padding-right: 24px;
+    white-space: nowrap !important;
+}
+
+.line-fix {
+    clear: both
+}
+
+/* KDV Remove */
+/*
+.cart-price { display:none; }
+.cart-detail { width:64%; }
+*/
+#imgSepetGoster {
+    cursor: pointer;
+}
+
+
+
+.sp-input-group {
+    width: 100% !important;
+    min-width: 82px;
+    margin-top: 25px;
+    height: auto;
+    display: block;
+    border: 1px solid rgb(221, 221, 221);
+    min-height: 32px;
+    padding: 0 !important;
+    position: relative;
+    z-index: 100;
+}
+
+.sp-input-group .sp-short, .sp-input-group button {
+    float: left;
+    min-height: 32px;
+    border: none !important;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    height: auto !important;
+}
+
+.sp-input-group button {
+    width: 20px;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.sp-input-group .sp-short {
+    width: 40px !important;
+    font-size: 12px;
+}
+
+.sp-input-group .sp-arttir {
+    float: right !important;
+}
+
+.sepet-sayac {
+    float: right;
+    clear: both;
+    height: 50px;
+}
+
+#quick-basket img, #quick-basket .cart-price, #quick-basket .cart-qty, #quick-basket .cart-total-price, #quick-basket .basket-title, #quick-basket .discount-coupon, #quick-basket .grey {
+    display: none;
+}
+
+#quick-basket h3 {
+    line-height: normal;
+}
+
+#quick-basket .basket-right, #quick-basket .cart-detail {
+    width: 100% !important;
+    min-width: inherit !important;
+}
+
+#quick-basket .basket-item {
+    height: auto;
+    min-height: 50px;
+}
+
+#quick-basket .sepet2 {
+    display: none;
+}
+
+#quick-basket .sepet1, #quick-basket .sepet3 {
+    width: auto;
+    font-weight: normal;
+}
+
+#quick-basket .sepet1 {
+    margin-left: 5px;
+}
+
+/*YENİ SEPET*/
+
+.satinal .basket-right ul li span.green
+{
+    margin:0 !important;
+}
+
+.cart-info h3 a {
+    color: #056f24 !important
+}
+
+.cart-info span {
+    color: #239845 !important
+}
+
+.basket-left {
+    float: left;
+    width: calc(100% - 330px);
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 3px #ddd;
+    margin-bottom: 20px !important;
+}
+
+.basket-right {
+    color: #A8A8A8;
+    float: right;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    width: 310px;
+    clear: none;
+    float: right;
+    min-width: inherit;
+    text-align: right;
+    margin-bottom: 20px !important;
+}
+
+.discount-coupon {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.basket-right ul {
+    border-bottom: 1px solid #ebebeb;
+    background-color: #fff !important;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.basket-right .sepet1 {
+    width: 63%;
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+
+.basket-right ul li span.sepet3 {
+    background: transparent !important;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.basket-right ul li span.red {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.basket-right ul li span.green {
+    font-size: 16px !important;
+    font-weight: bold;
+    color: #000
+}
+
+.basket-right ul li span.blue {
+    color: #000 !important
+}
+
+.basket-right ul li {
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #fbfbfb;
+}
+
+.basket-right ul li:last-child {
+    border: none !important;
+}
+
+.basket-right ul li span {
+    float: right;
+    text-align: right
+}
+
+.basket-right span {
+    text-align: right !important;
+    float: left !important;
+    padding: 0 !important;
+}
+
+.basket-item .cart-qty {
+    line-height: auto !important
+}
+
+.basket-item .cart-price {
+    font-size: 13px !important
+}
+
+.basket-item .cart-total-price {
+    font-size: 13px !important;
+    font-weight: bold;
+}
+
+.basket-wrap .cart-qty .sepetbirim {
+    display: none
+}
+
+basket-button {
+    margin-top: 40px !important;
+}
+
+.green-button {
+    width: 310px;
+    height: 40px;
+}
+
+.green-button:hover {
+    background-color: green !important;
+}
+
+.grey {
+    color: #fff !important;
+    width: 209px;
+    height: 41px;
+    border: none;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadowx: 1px 1px 1px #fff;
+    line-height: 41px;
+    margin-top: 15px;
+}
+
+div.basket-button a.grey {
+    color: #fff;
+}
+
+.sepet-info {
+    background: #EDF5D6;
+    color: #333;
+    border: none;
+    box-shadow: 0px 1px 4px #ddd;
+    border: 1px solid #e1e4d6;
+    text-align: center;
+    font-weight: bold
+}
+
+.sepet-info a {
+    color: #444 !important;
+    font-size: 13px;
+}
+
+.basket-tek .basket-right {
+    float: right !important;
+    margin-top: 20px !important;
+    max-width: 400px !important;
+    min-width: 300px !important;
+}
+
+
+.basket-tek .basket-left {
+
+    float: left;
+    margin-right: 0;
+    width: 100%;
+
+}
+
+.basket-tek .green-button {
+    max-width: 240px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .basket-right, .basket-left {
+        clear: both;
+    }
+
+    .basket-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .basket-wrap .cart-qty .sepetadet
+    {
+        left: inherit;
+    }
+    .cart-detail .lightbox {
+        display: none;
+    }
+
+    .cart-price, .sepet2 {
+        display: none;
+    }
+
+    .cart-pricex {
+        display: inline-block !important;
+        width: 103px;
+    }
+
+    .cart-info {
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .basket-item {
+        overflow: hidden
+    }
+
+    .basket-wrap .cart-qty {
+        width: 30%;
+    }
+
+    .basket-wrap .cart-qty form {
+        width: auto;
+        margin: auto;
+    }
+
+    .discount-coupon {
+        width: 100% !important;
+    }
+
+    .basket-left {
+        width: 100% !important;
+        float: left;
+        clear: both;
+        margin-right: 0;
+        clear: both;
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .basket-right {
+        width: 100% !important;
+        float: left;
+        clear: both;
+        margin-right: 0;
+        clear: both;
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .sepet1 {
+        white-space: normal;
+        width: auto !important;
+        padding-left: 10px;
+    }
+
+    .basket-button .green-button {
+        float: left;
+    }
+
+    .basket-right {
+        float: left !important;
+        padding-top: 20px !important;
+        width: 100% !important;
+        clear: both;
+    }
+
+    .basket-right ul li span.sepet3 {
+        width: auto;
+    }
+
+    .basket-right ul li span {
+        padding-left: 10px !important;
+    }
+
+    .basket-wrap .sepetbirim, .basket-wrap .arttir, .basket-wrap .azalt {
+        display: none;
+    }
+
+    .basket-wrap div.qty {
+        background: none;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        width: 25px !important;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .basket-tek .basket-right
+    {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .basket-item { height:100px; }
+
+    .cart-detail img {
+        display: none;
+    }
+
+    .cart-price {
+        display: none;
+    }
+
+    .cart-detail .cart-info {
+        padding: 10px !important;
+        overflow: hidden;
+    }
+    .basket-item .cart-total-price
+    {
+        line-height: 20px; margin-top:20px;
+    }
+    .cart-detail { width: 41% !important; }
+    .basket-item {
+        overflow: hidden
+    }
+
+    .basket-wrap .cart-qty {
+        width: 30%;
+    }
+
+    .basket-right > ul > li,.basket-right ul li span {  
+        height: 40px !important;
+        line-height: 40px !important;
+
+        }
+    
+
+    .basket-button .green-button {
+        float: left;
+    }
+
+    .basket-button a {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .basket-wrap .cart-qty {
+        min-width: 100px;
+    }
+}
+
+table.sepet th.set-center { text-align: center !important;}
+
+table.sepet {
+    margin-bottom: 25px;
+}
+
+table.sepet th, table.sepet td {
+    padding: 1em !important;
+    font-size: 15px;
+}
+
+table.sepet th {
+    color: #444444;
+    text-align: center;
+    padding: 5px;
+    text-transform: lowercase;
+    background-image: none;
+    background-color: #919191;
+    line-height: 15px;
+    height: inherit;
+    height: 45px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+table.sepet tbody tr {
+    box-shadow: 1px 1px 1px 1px #f5f5f5;
+}
+
+table.sepet tbody tr td {
+    border: 0px;
+}
+
+table.sepet td a {
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+table.sepet td.liste-adres_duzenle .textBox:after {
+    content: "\f00b";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ebaf33;
+
+}
+
+table.sepet td.liste-adres_sil .textBox:after {
+    content: "\f00d";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ebaf33;
+
+}
+
+table.sepet td.liste-siparis_detaylar .textBox:after {
+    content: "\f00b";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #ebaf33;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+table.sepet td.liste-siparis_yazdir .textBox:after {
+    content: "\f02f";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #ebaf33;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+table.sepet td.liste-iptal .textBox:after {
+    content: "\f00d";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ebaf33;
+
+}
+
+table.sepet td.liste-degistir .textBox:after {
+    content: "\f0ec";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ebaf33;
+
+}
+
+table.sepet td.liste-siparis_tekrarla .textBox:after {
+    content: "\f1da";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ebaf33;
+
+}
+table.sepet td .textBox { text-align: center; width: 100%; font-size:20px !important; }
+table.sepet td .textBox div { display: none; }
+/*
+.basket-title {
+    background: #919191 !important;
+    border-bottom: 0px;
+    color: #ffffff;
+}
+
+.basket-title div span {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+}*/
+
+.sepet-satir-sil a img {
+    display: none
+}
+
+.sepet-satir-sil a:before {
+    content: "\f00d";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    color: #444444;
+    text-rendering: auto;
+    line-height: 80px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+/*
+.basket-title div {
+    border-right: 1px solid #a7a7a7;
+}
+*/
+.basket-left, .basket-right {
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+}
+
+.basket-button {
+    width: 100%;
+    margin: auto;
+}
+
+.basket-right ul {
+
+}
+
+.basket-right ul li {
+    padding-right:10px;
+
+}
+
+.discount-coupon {
+
+    margin-bottom: 0px;
+}
+
+.cart-info span {
+    color: #59b210 !important;
+}
+
+.cart-info h3 a {
+    color: #919191 !important;
+}
+
+.cart-detail .propicer img {
+    margin-left: 15px;
+}
+
+.cart-detail img {
+    border-radius: 0px;
+    box-shadow: none;
+    float: left;
+    margin: 6px;
+}
+
+.basket-right ul li span.sepet1 {
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #343434;
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+
+.basket-right ul li.kargo {
+    height: 60px;
+    background-color: #ff8600;
+    color: #fff;
+}
+
+.basket-right ul li.kargo span {
+    color: #fff;
+    line-height: 25px;
+}
+
+.basket-right ul li.kargo span.blue {
+    color: #fff !important;
+}
+
+.basket-right ul li.tutar {
+    background-color: #f6f6f6;
+    height: 85px;
+}

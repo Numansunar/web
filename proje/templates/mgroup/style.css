@@ -1,0 +1,52 @@
+﻿.gf_input,.loginForm input,.loginInput { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.gf_select { 
+	width:120xp;
+	border: 1px solid #aedae4;
+	padding:4px;
+}
+
+.gf_textarea { 
+	width:300px;
+	height:100px;
+	border: 1px solid #aedae4;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#tabData { float:left; clear:both; }
+.td1 label { position:absolute; }
+.menu_table td { padding:4px; }
+#loginbox li a { background:none; }
+#loginbox li a:hover { background:none; }
+#loginbox li a.selected { background:none; }
+#loginbox .welcome { display:none; }
+.generatedForm { width:auto;  }
+.generatedForm td,.loginForm td { padding:2px; }
+.generatedForm .td1,.generatedForm .td2 { font-weight:bold; }
+.generatedForm .td1 { width:150px; }
+#gf_acceptRules  { width:430px; }
+.td1 input { float:left; }
+.td1 label { white-space:normal; width:400px; float:left; }
+h2 .BreadCrumb { font-size:12px; text-decoration:none; }
+
+/* Alışveriş Sırası */
+div.multi-step { margin-bottom:10px; background-color:#f4f8f9; border:none; margin-left:auto; margin-right:auto; }
+div.multi-step ol > li.current { background-color:#90BE00; border-top:4px solid #90BE00; border-bottom:4px solid #90BE00; color:white; }
+div.multi-step ol > li.current .title, div.multi-step ol > li.current .subtitle { color:#fff; }
+div.multi-step ol > li .title {  color:#555; font-size:14px;  }
+div.multi-step ol > li { border-top:4px solid #f4f8f9; border-bottom:4px solid #f4f8f9;  background-color: #f4f8f9;}
+div.multi-step ol > li .subtitle { color:#555; font-size:11px;  }
+div.multi-step ol > li .wrap { }
+/* Alışveriş Sırası */
+
+.email-form { display:block; }

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Giriş Popup</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.loginbox').fancybox({
+			closeBtn	: true,
+			width: 602,
+			height: 550
+		});
+	});
+	</script>
+
+</head>
+<body>
+	<a class="loginbox fancybox.iframe" href="login.html">Giriş</a>
+</body>
+</html>

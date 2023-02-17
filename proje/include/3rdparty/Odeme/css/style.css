@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+
+/* buradan aşağısı kullanılacak üsttekiler sadece demo için */
+.payment *, .payment *:after, .payment *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; *behavior: url(css/boxsizing.htc); padding: 0; margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #000; line-height: 1.4; }
+
+.payment { float: left; width: 100%; color: #444; }
+.payment table { border-collapse: collapse; border-spacing: 0; border-top:2px solid #ddd; border-radius:5px; }
+.payment h1 { float: left; width: 100%; font-size: 22px; margin: 0 0 10px 0; font-weight: normal; }
+.payment p { margin: 0 0 10px 0; }
+.payment .paymentTab { float: left; width: 100%; }
+.payment .paymentTab .tabLinks { float: left; width: 100%; ver }
+.payment .paymentTab .tabLinks ul { list-style: none; }
+.payment .paymentTab .tabLinks ul li { float: left; margin: 0 8px 0 0; }
+.payment .paymentTab .tabLinks ul li a { background: url("../img/paymentTab.png") 0 0 no-repeat; display: block; text-indent: -9999px; width: 172px; height: 66px; }
+.payment .paymentTab .tabLinks ul li a.pt1 { background-position: 0 -66px; }
+.payment .paymentTab .tabLinks ul li a.pt2 { background-position: -180px -66px; }
+.payment .paymentTab .tabLinks ul li a.pt3 { background-position: -360px -66px; }
+.payment .paymentTab .tabLinks ul li a.pt4 { background-position: -540px -66px; }
+.payment .paymentTab .tabLinks ul li a.pt5 { background-position: -720px -66px; }
+.payment .paymentTab .tabLinks ul li a.selected { background-position-y: 0; }
+.payment .paymentTab .tabs { float: left; width: 100%; }
+.payment .paymentTab .tabs .tab { float: left; width: 100%; margin: 4px 0 0 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 1px 1px 3px #dddddd; -moz-box-shadow: 1px 1px 3px #dddddd; box-shadow: 1px 1px 3px #dddddd; }
+.payment .paymentTable { float: left; width: 100%; }
+.payment .paymentTable table { width: 100%; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 0; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; margin: 5px 0 0 0; }
+.payment .paymentTable table tr th, .payment .paymentTable table tr td { padding: 6px; border: 1px solid #d2d2d2; }
+.payment .paymentTable table tr th:hover, .payment .paymentTable table tr td:hover { background: #e0e0e0; }
+.payment .paymentTable table tr td strong { margin-left: 16px; }
+.payment .paymentTable table tr:nth-child(odd) { background: #ebebeb; }
+.payment .paymentTable table tr.white { background: #F2F2F2; }
+.payment .paymentTable table tr.white th { border-top: 0 none; }
+.payment .total { float: left; width: 100%; padding: 15px 10px; text-align: right; }
+.payment .total strong { font-size: 16px; color: #333; font-weight: bold; }
+.payment .continue { float: right; height: 34px; line-height: 34px; padding: 0 15px; font-size: 16px; text-decoration: none; background: #ef6431; color: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 30px 0; }
+.payment .back { float: left; height: 34px; line-height: 34px; padding: 0 15px; font-size: 16px; text-decoration: none; background: #e5e5e5; color: gray; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 30px 0; }
+.payment .productsTable { float: left; width: 100%; padding: 10px 0 50px 0; background: #ebebeb; border: 1px solid #d2d2d2; border-top: 1px solid #e4e4e4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.payment .productsTable table { width: 100%; }
+.payment .productsTable table td { text-align: center; }
+.payment .productsTable table td p { text-align: left; }
+.payment .productsTable table tr { border-bottom: 1px solid #d2d2d2; }
+.payment .productsTable table tr th, .payment .productsTable table tr td { padding: 6px; }
+.payment .productsTable table tr td { border-right: 1px solid #d2d2d2; }
+.payment .productsTable table tr th { background: #ebebeb; font-size: 14px; font-weight: normal; }
+.payment .productsTable table tr:nth-child(odd) { background: #fff; }
+.payment .productsTable .total { float: left; width: 100%; padding: 15px 10px; text-align: right; font-weight: bold; }
+.payment .productsTable .total strong { font-size: 30px; color: #333; font-weight: bold; }
+.payment .orderTable {
+    border: 1px solid #D2D2D2;
+    border-radius: 6px;
+    box-shadow: 0 0 18px #EBEBEB inset;
+    float: left;
+    padding: 10px 25px;
+    width: 100%;
+}
+.payment .orderTable h2 { float: left; width: 100%; font-size: 16px; }
+.payment .orderTable p {
+    color: #AD672E;
+    float: left;
+    font-size: 12px;
+    width: 100%;
+}
+.payment .orderTable table { float: left; width: 80%; margin: 20px 0 0 0; font-size: 11px; }
+.payment .orderTable table td { text-align: center; }
+.payment .orderTable table td p { text-align: left; }
+.payment .orderTable table tr { background: #ebebeb; border-bottom: 1px solid #d2d2d2; }
+.payment .orderTable table tr th, .payment .orderTable table tr td { padding: 6px; }
+.payment .orderTable table tr td { border-right: 1px solid #d2d2d2; height: 50px; }
+.payment .orderTable table tr td:hover { background: #e0e0e0; }
+.payment .orderTable table tr th { padding: 2px 6px; background: #fff; font-size: 11px; font-weight: bold; }
+.payment .orderTable table tr:nth-child(odd) { background: #fff; }
+.payment .akbank { float: left; width: 100%; padding: 10px 25px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.payment .akbank table { float: left; width: 100%; margin: 20px 0 0 0; font-size: 11px; border: 1px solid #d2d2d2; }
+.payment .akbank table td { text-align: center; }
+.payment .akbank table td p { text-align: left; }
+.payment .akbank table tr { background: #ebebeb; border-bottom: 1px solid #d2d2d2; }
+.payment .akbank table tr th, .payment .akbank table tr td { padding: 6px; }
+.payment .akbank table tr td { border-right: 1px solid #d2d2d2; }
+.payment .akbank table tr td:hover { background: #e0e0e0; }
+.payment .akbank table tr th { padding: 2px 6px; background: #fff; font-size: 11px; font-weight: bold; }
+.payment .akbank table tr:nth-child(odd) { background: #fff; }
+.payment .agrement { float: left; width: 100%; height: 200px; margin: 20px 0; padding: 10px; overflow: auto; border: 1px solid #e4e4e4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.payment .agrement h6 { font-size: 18px; margin: 0 0 10px 0; }
+.payment label { font-size: 16px; margin: 0 20px 0 0; }
+
+.inputodeme {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    padding-bottom: 7px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.chrome .inputodeme {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    padding-bottom: 7px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.payment *, .payment *:after, .payment *:before {
+    -moz-box-sizing: border-box;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+.payment *, .payment *:after, .payment *:before {
+    -moz-box-sizing: border-box;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+.taksitmebla {
+    color: #D05F1B;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: -7px;
+    margin-left: 18px;
+    margin-top: 3px;
+    text-align: center;
+    width: 92%;
+}
+.taksittitle {
+    font-size: 12px;
+    width: 80px;
+}
+.taksittext {
+    display: block;
+    float: left;
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: -2px;
+    text-align: center;
+    width: 100%;
+}
+	.paymentTabDesc {
+    background: url("../img/paymentDescBack.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding-bottom: 10px;
+    padding-left: 83px;
+    padding-top: 10px;
+    width: 100%;
+}
+.paymentTabDesc h3 {
+    font-family: arial;
+    font-size: 16px;
+}
+.paymentTabDesc p { font-family: arial;
+    font-size: 12px; color:#40672e;}
+	
+
+.paymentButtonTabTaksit {
+	cursor:pointer;
+	margin-left:43% !important;
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#9dce2c;
+	-webkit-border-top-left-radius:7px;
+	-moz-border-radius-topleft:7px;
+	border-top-left-radius:7px;
+	-webkit-border-top-right-radius:7px;
+	-moz-border-radius-topright:7px;
+	border-top-right-radius:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-moz-border-radius-bottomright:7px;
+	border-bottom-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-moz-border-radius-bottomleft:7px;
+	border-bottom-left-radius:7px;
+	text-indent:0;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:47px;
+	line-height:47px;
+	width:146px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #689324;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.paymentButtonTabTaksit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}.paymentButtonTabTaksit:active {
+	position:relative;
+	top:1px;
+}
+
+.havaleOdemePaytab {
+    border-bottom: 1px solid #D2D2D2;
+    color: #CE5912;
+    display: block;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.havaleTablo {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D2D2D2;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    margin-bottom: 22px !important;
+    width: 99% !important;
+}
+.havaleTablo th {
+    border: medium none;
+    font-family: arial;
+    font-size: 14px !important;
+    padding-bottom: 8px !important;
+}
+.havaleTablo td {
+    border: medium none;
+    font-family: arial !important;
+    font-weight: bold;
+    height: 25px !important;
+    padding-top: 7px !important;
+}

@@ -1,0 +1,2 @@
+Kurulum Bilgisi için :
+http://yardim.shopphp.net/ > Kurulum

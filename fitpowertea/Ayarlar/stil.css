@@ -1,0 +1,46 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,"sans-serif";
+	font-size: 14px;
+	color: #646464;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;	
+}
+.MaviAlanMenusu a:link, .MaviAlanMenusu a:active, .MaviAlanMenusu a:visited, .MaviAlanMenusu a:hover{
+	font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,"sans-serif";
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;		
+}
+.AnaMenu a:link, .AnaMenu a:active, .AnaMenu a:visited, .AnaMenu a:hover{
+	font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,"sans-serif";
+	font-size: 14px;
+	color: #646464;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;		
+}
+.AltMenu a:link, .AltMenu a:active, .AltMenu a:visited, .AltMenu a:hover{
+	font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,"sans-serif";
+	font-size: 14px;
+	color: #646464;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;		
+}

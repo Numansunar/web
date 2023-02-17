@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+:focus {
+    outline: 0 none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.product {
+    float: left;
+    height: 230px;
+    margin: 10px;
+    width: 468px;
+}
+.product_picture {
+    float: left;
+    height: 60px;
+    margin-left: -399px;
+    margin-top: -11px;
+    overflow: hidden;
+    width: 60px;
+}
+
+.title {
+    float: left;
+    font-size: 12px;
+    height: 23px;
+    width: 417px;
+}
+
+.title a {
+    color: #333333;
+    display: block;
+    font-family: Calibri,"Trebuchet MS";
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 91px;
+    margin-top: -5px;
+    width: 113px;
+}
+
+.title a:hover {
+    color: #333333;
+    display: block;
+    font-family: Calibri,"Trebuchet MS";
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 91px;
+    margin-top: -5px;
+    width: 113px;
+}
+
+.price1 {
+    color: #CC3300;
+    float: left;
+    font-family: Calibri,"Trebuchet MS";
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 221px;
+    margin-top: -3px;
+    padding-left: 15px;
+    position: absolute;
+    width: 150px;
+}
+
+
+.price2 {
+    color: #000000;
+    float: left;
+    font-family: Calibri,"Trebuchet MS";
+    font-size: 18px;
+    font-weight: bold;
+    left: 161px;
+    margin-left: 161px;
+    margin-top: -3px;
+    padding-left: 15px;
+    position: absolute;
+    width: 150px;
+}
+.piyasaColor {
+    color: #999999;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+    text-decoration: line-through;
+}
+.bizdeColor {
+    color: #FF0033;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.piyasada {
+    font-size: 16px;
+}
+.buynow {
+    height: 32px;
+    margin-left: 1px;
+    margin-top: 187px;
+    position: absolute;
+    width: 279px;
+}
+.next {
+    cursor: pointer;
+    height: 61px;
+    margin-left: 447px;
+    margin-top: -1px;
+    overflow: hidden;
+    position: absolute;
+    width: 22px;
+    z-index: 10;
+}
+.prev {
+    cursor: pointer;
+    height: 64px;
+    margin-left: -1px;
+    margin-top: -2px;
+    position: absolute;
+    width: 22px;
+    z-index: 10;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    background-image: url("../images/affilate/xxx.png");
+    border: 1px solid #e6e6e6;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+    width: 468px;
+}
+#wrapper .overview {
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+#wrapper .viewport {
+    float: left;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 468px;
+}
+#wrapper .overview li {
+    float: left;
+    width: 468px;
+}

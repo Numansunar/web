@@ -1,0 +1,15 @@
+.container,
+#slider .overview li img
+{
+	behavior: url(js/PIE.htc);
+}
+
+.productTabs .tabLinks li a,
+.productList {
+	behavior: url(js/PIE.htc);
+	position:relative;
+	z-index: 0;
+}
+.right .heading {
+	*right: 0;
+}

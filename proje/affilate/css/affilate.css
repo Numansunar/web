@@ -1,0 +1,37 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+.clear { clear: both; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }/* CSS Document */
+
+.product { margin: 10px; float: left; height: 230px; width: 280px; background-color: #FFF; }
+.product_picture { float: left; height: 150px; width: 150px; }
+.title { float: left; height: 53px; width: 280px; }
+.title a { font-family: Calibri, "Trebuchet MS"; font-size: 18px; font-weight: bold; color: #333; }
+.title a:hover { font-family: Calibri, "Trebuchet MS"; font-size: 18px; font-weight: bold; color: #F30; text-decoration: none; }
+.price1 { float: left; width: 150px; font-family: Calibri, "Trebuchet MS"; font-size: 23px; font-weight: bold; padding-left: 15px; position: absolute; margin-top: 57px; margin-left: 150px; color: #C30; }
+.price2 { color: #000000; float: left; font-family: Calibri, "Trebuchet MS"; font-size: 23px; font-weight: bold; left: 161px; margin-left: -2px; margin-top: 109px; padding-left: 15px; position: absolute; width: 150px; }
+.piyasaColor { color: #999999; font-size: 18px; font-weight: bold; margin-top: 2px; text-decoration: line-through; }
+.bizdeColor { color: #FF0033; font-weight: bold; margin-top: 2px; }
+.piyasada { font-size: 16px; }
+.buynow { height: 32px; margin-left: 1px; margin-top: 187px; position: absolute; width: 279px; }
+.next { height: 64px; width: 22px; position: absolute; margin-top: 77px; margin-left: 279px; z-index:10; }
+.prev { height: 64px; width: 22px; position: absolute; margin-top: 77px;  z-index:10;}
+
+#wrapper { float: left; height: 250px; width: 300px; background-color: #CCC; background-image: url(../images/affilate/300x250_back.png); overflow:hidden; }
+#wrapper .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+#wrapper .viewport { float: left; overflow: hidden;  position: relative; width:300px; height:250px; }
+#wrapper .overview li{ float: left;  }
+
+

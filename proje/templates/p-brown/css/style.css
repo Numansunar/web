@@ -1,0 +1,193 @@
+body {line-height: 1.4;font-family: Tahoma, Geneva, sans-serif;font-size: 12px;color: #000;background: #d2d1d0;}
+
+
+
+
+.wrap {width: 1000px;margin: 0 auto;}
+
+#header {float: left; width: 100%; height: 132px; background: url("../img/header.png") left top repeat-x; }
+
+	#logo {float: left;width: 300px;height: 60px;background: url("../img/logo.png") left top no-repeat; margin: 16px 0 0 0;}
+		#logo h1 {text-indent: -9999px;}
+			#logo h1 a {width: 300px;height: 60px;display: block;}
+	
+	#top {float: right; height: 34px;}
+		#top ul {float: right; height: 34px; background: #333; padding: 0 16px; line-height: 34px;}
+			#top li {display: inline;color: #a5a5a5; padding: 0 5px;}
+				#top li a {color: #a5a5a5;}
+		.welcome {float: right; color: #a5a5a5; height: 34px; line-height: 34px; background: #151515; padding: 0 14px;}
+	
+	#menu {float: left; width: 100%; margin: 9px 0 0 0; height: 47px;}
+		.basket {float: right; cursor:pointer; height: 47px; color: #d9c393; background: url("../img/basket.png") right center no-repeat; line-height: 52px; padding: 0 40px 0 0;}
+			.basket a,.basket span { color: #d9c393; font-weight: bold;}
+		
+
+		#menu ul {float: left;height: 47px;margin: 0; padding: 0;list-style: none;}
+			#menu ul li {float: left;margin: 0; padding: 0; position: relative; color: #dcdcdc; line-height: 52px;}
+				#menu ul li a {float: left; height: 47px; display: block;text-align: center;color: #dcdcdc;text-decoration: none; margin: 7px 10px 0 10px;}
+				
+				#menu ul li.selected a { background: url("../img/arrow.png") center bottom no-repeat;}
+					#menu ul li a span {display: block;padding: 0 14px; line-height: 39px; height: 39px;}
+					#menu ul li.selected a span {background: #746a60;}
+				#menu li a:hover {text-decoration: underline;}
+					
+				
+
+
+#content {float: left; width: 100%;}
+	#left {float: left; width: 750px; padding: 20px 0 0 0;}
+	
+		.campaign {float: left; width: 741px; height: 235px; margin: 0 0 15px 0;background: url("../img/campaign.png") left bottom no-repeat;}
+			.campaign .img {float: left; margin: 0 0 0 1px; height: 192px; width: 739px;}
+				.campaign .img img { height: 192px; width: 739px;}
+			.campaign .link {float: left; height: 43px; line-height: 43px; width: 711px; padding: 0 15px; color: #1b1b1b; font-size: 11px;}
+				.campaign .link span {float: right; font-size: 12px;}
+				.campaign .link:hover { text-decoration: none; }
+				
+		
+		
+
+
+	#right {float: right; width: 250px; padding: 20px 0 0 0;}
+		.invite {float: right; width: 204px; border: 1px solid #bebebe; background: #f2f2f2 url("../img/invite.png") left top no-repeat; padding: 80px 22px 28px 22px;}
+			.invite .input {font-size: 11px; font-family:Tahoma, Geneva, sans-serif; background: #fff; border: 1px solid #c6c6c6; padding: 6px; width: 186px;}
+			.invite .submit {width: 129px; height: 34px; float: left; border: 0 none; background: #f2f2f2 url("../img/submit.png") left top no-repeat; margin: 14px 45px;}
+			.invite a {color: #4e4e4e; font-size: 11px; line-height: 1.2;}
+		.ads {float: right; width: 248px; border: 1px solid #bebebe; background: #f2f2f2; padding: 12px 0; text-align: center; margin: 20px 0 0 0;}
+	
+	
+	
+	
+	
+	
+
+#footer {float: left; width: 100%; height: 150px; background: url("../img/footer.png") left top repeat-x; padding: 20px 0 0 0; margin: 60px 0 0 0; }
+	#footer .wrap { position: relative; height: 150px;}
+	.footMenu {float: left; margin: 0 50px 0 0;}
+		.footMenu h6 {color: #c8c8c8; font-size: 18px; font-weight: normal; margin: 0 0 3px 0; text-shadow: 1px 1px #353535; }
+		.footMenu ul {}
+			.footMenu li {color: #acabab;}
+				.footMenu li a {color: #acabab;}
+	.fRight {float: right;}
+		.fRight li {float: right; padding: 0 6px;color: #acabab;}
+			.fRight li a { color: #acabab;}
+		.cards {float: right; width: 300px; margin: 16px 0 0 0; }
+			
+	.copyright {text-align: center; color: #acabab; font-size: 11px; position: absolute; bottom: 0; left: 0; width: 1000px; height: 35px; line-height: 35px;}
+	.copyright a { color: #acabab; font-weight:bold }
+		.power {float: right; font-size: 12px;}
+		.rights {float: left; font-size: 12px;}
+	
+	
+	
+	
+/* listeleme.html STARTs */	
+	
+	
+
+	
+	
+#proHead {float: left; position: relative; background: #eaeaea; border: 1px solid #b0b0b0; padding: 5px; width: 988px; margin: 20px 0 0 0;}	
+
+	#remain {color: #2f2f2f; border-top: 1px solid #bcbcbc; margin: 10px 0 0 0; padding: 10px 0 0 0; text-align: right; line-height: 1;}
+		#remain strong {font-size: 18px; font-weight: normal;}
+		
+	#proHead .img {float: left;  width: 495px; height: 129px; background: #eaeaea;}
+	
+	#proHeadRight {float: right; width: 473px; height: 130px; background: #eaeaea; padding: 0 10px; line-height: 1.2;}
+		#proHeadRight h1 {font-size: 18px; font-weight: normal; line-height: 1; margin: 0 0 10px 0; color: #2f2f2f;}
+		#proHeadRight p {color: #2f2f2f; font-size: 11px;}
+		
+		
+		
+.filter {float: left; width: 968px; height: 45px; background: #333; margin: 20px 0 10px 0; padding: 0 15px; border: 1px solid #c6c6c6;}
+	.filter h3 {float: left; line-height: 45px; color: #bdab83; font-size: 18px; font-weight: normal; text-shadow: 1px 1px #0d0d0d;}
+	.filter .selection {float: right;}
+	.filter h6 {float: right; font-size: 16px; color: #676767; font-weight: normal; line-height: 45px; margin: 0 0 0 10px;}
+			
+			
+				
+.longPro {float: left; width: 276px;padding: 9px; background: #e6e6e6; margin: 10px 56px 0 0; border: 1px solid #fff;}
+.third {margin-right: 0; }
+	.longPro a.img {display: block; width: 275px; height: 423px; position: relative;}
+	.longPro a.img img { width:275px; }
+		.longPro a.img:hover span {position: absolute; top: 290px; left: -9px; width: 294px; height: 48px; background: url("../img/look.png") top left no-repeat; text-align: center; line-height: 46px; font-size: 14px; color: #574a48; font-weight: bold;}
+	.longPro a.img:hover {text-decoration: none;}
+	.longPro a.proLink {float: left; padding: 8px 8px 0 8px; font-size: 16px; color: #464646;}
+		.longPro a.proLink span {display: block;}
+	.longPro .price {float: right; padding: 8px 8px 6px 8px; text-align: right; color: #6f6f6f; }
+		.longPro .price span {text-decoration:line-through;}
+		.longPro .price strong {display: block; color: #8e7c5c; font-size: 18px; font-weight: normal;text-decoration: none;}
+
+
+
+.selection { margin: 10px 10px 0 5px;}
+	.selection .jqTransformSelectWrapper { background: url("../img/select.png") left top no-repeat; width: 181px; height: 28px;}
+	.selection a {float: none; margin: 0; padding: 0; background: none;}
+	.selection span {float: none; margin: 0; padding: 0; background: none; color: #000;}
+	.selection .jqTransformSelectWrapper div span { color: #676767; font-size: 11px; font-family: Tahoma, Geneva, sans-serif; height: 25px; padding: 0 0 0 10px;}
+	.selection .jqTransformSelectWrapper ul {width: 151px;}
+
+	
+	
+	
+/* detay.html STARTs */
+
+h2.title {float: left; height: 47px; width: 970px; font-size: 18px; font-weight: normal; color: #fff;background: #333; line-height: 47px; padding: 0 15px; margin: 20px 0 0 0; color: #ddd9d0; text-shadow: 1px 1px #000;}
+	
+#proDetails {float: left;width: 988px; margin: 10px 0 0 0; background: #ececec; border: 1px solid #c6c6c6; padding: 5px;}
+	
+	#pdLeft {float: left;width: 290px; }
+		.productBig {float: left; background: #e2e2e2; padding: 4px; border: 1px solid #c6c6c6;}
+	
+		.productSmall {float: left; padding: 0 0 4px 0; margin: 5px 0 0 0;}
+			.productSmall li {float: left; margin: 0 4px 0 0; background: #e2e2e2; padding: 4px; border: 1px solid #c6c6c6;}
+	
+	
+	#pdRight {float: right;width: 685px; padding: 0 5px 0 0;}
+			
+		#proDetails h1 {float: left; width: 500px; height: 55px; margin: 6px 0 0 0; padding:0 15px; line-height: 55px; background: #f7f6f4; border: 1px solid #c6c6c6; font-size: 16px; color: #272727;}
+		
+		#pdRight .price {float: right; width: 127px; height: 55px; line-height: 55px; margin: 6px 0 0 0; padding: 0 10px; border: 1px solid #c6c6c6; font-size: 14px; color: #272727; background: #f7f6f4;}
+			#pdRight .price p {color: #9e7d57; font-size: 25px; margin:0; padding: 0; line-height: 1.2; text-align: center;}
+				#pdRight .price p span {color: #525252; font-size: 18px; text-decoration: line-through;}
+				
+				
+		
+		#others {float: right; width: 147px; background: #e2e2e2; border: 1px solid #c6c6c6; text-align: center; margin: 6px 0 0 0; padding: 4px 0; }
+			#others a:hover {text-decoration: none;}
+			#others .next ,#others .prev{ color: #272727; font-size: 11px; clear:both; display:block; }
+				#others .next span { display:block; clear:both;}
+				
+		.description { color: #2f2f2f; font-size: 11px; padding: 6px;}		
+		
+		
+		
+		.option {float: left; width: 530px; color: #272727; margin: 15px 0 5px 0;}
+			.option h6 {font-size: 13px; color: #5f5f5f; margin: 0 0 5px 0;}
+			
+			
+			.option label {float: left;font-size: 13px; color: #5f5f5f;font-weight: bold; width: 60px;}
+			.option select {float: left;}
+			.option a {float: left; padding: 8px 16px; background: #f6f6f6; margin: 0 5px 0 0; color: #2f2f2f; font-size: 13px; border: 1px solid #c6c6c6; }
+			
+		.addBasket {float: left; background: url("../img/addBasket.png") left top no-repeat;width: 142px; height: 35px; text-indent: -9999px; margin: 16px 0;}
+		
+		.share {float: left; width: 555px; height: 69px; background: url("../img/share.png") left center no-repeat; line-height: 69px; color: #282828; font-size: 14px; margin: 5px 0; padding: 0 0 0 15px;}
+			.share a {float: left; color: #282828; margin: 0 30px 0 0; padding: 0 0 0 35px; font-weight: normal;}
+			.share a.friend { background: url("../img/mail.png") left center no-repeat;}
+			.share a.sFacebook { background: url("../img/face.png") left center no-repeat;}
+			.share a.sTwitter { background: url("../img/twit.png") left center no-repeat;}
+			
+
+		.info {float: left; width: 340px; color: #2f2f2f; padding: 20px 0; font-size: 11px;}
+			.info h4 {font-size: 12px; color: #595857; margin: 0 0 5px 0;}
+
+
+	
+	
+	
+	
+	
+	
+	
